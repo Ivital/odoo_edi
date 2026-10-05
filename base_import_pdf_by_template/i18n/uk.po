@@ -673,3 +673,58 @@ msgstr "Майстер завантаження базового імпорту 
 #: model:ir.model,name:base_import_pdf_by_template.model_wizard_base_import_pdf_upload_line
 msgid "Wizard Base Import Pdf upload Line"
 msgstr "Рядок завантаження майстра базового імпорту PDF"
+
+#. module: base_import_pdf_by_template
+#. odoo-python
+#: code:addons/base_import_pdf_by_template/wizards/wizard_base_import_pdf_upload.py:0
+msgid ""
+"%(item_name)s has been set with %(new_value)s instead of\n"
+"                    %(old_value)s"
+msgstr ""
+"Для %(item_name)s встановлено %(new_value)s замість\n"
+"                    %(old_value)s"
+
+#. module: base_import_pdf_by_template
+#. odoo-python
+#: code:addons/base_import_pdf_by_template/wizards/wizard_base_import_pdf_upload.py:0
+msgid "Error to set %(field_name)s with value %(value)s"
+msgstr "Помилка встановлення %(field_name)s зі значенням %(value)s"
+
+#. module: base_import_pdf_by_template
+#. odoo-python
+#: code:addons/base_import_pdf_by_template/wizards/wizard_base_import_pdf_upload.py:0
+msgid "Generated Documents"
+msgstr "Згенеровані документи"
+
+#. module: base_import_pdf_by_template
+#. odoo-javascript
+#: code:addons/base_import_pdf_by_template/static/src/xml/import_records.xml:0
+msgid "Import records (with template)"
+msgstr "Імпортувати записи (із шаблоном)"
+
+#. module: base_import_pdf_by_template
+#. odoo-python
+#: code:addons/base_import_pdf_by_template/wizards/wizard_base_import_pdf_upload.py:0
+msgid ""
+"No template has been auto-detected from %s, it may be necessary to create a "
+"new one."
+msgstr ""
+"Шаблон не було автоматично визначено з %s; можливо, потрібно створити новий."
+
+#. module: base_import_pdf_by_template
+#. odoo-python
+#: code:addons/base_import_pdf_by_template/wizards/wizard_base_import_pdf_mixin.py:0
+msgid "Odoo could not extract the text from the PDF."
+msgstr "Odoo не вдалося витягти текст із PDF."
+
+#. module: base_import_pdf_by_template
+#. odoo-python
+#: code:addons/base_import_pdf_by_template/models/base_import_pdf_template.py:0
+msgid "Space ( )"
+msgstr "Пробіл ( )"
+
+#. module: base_import_pdf_by_template
+#. odoo-python
+#: code:addons/base_import_pdf_by_template/wizards/wizard_base_import_pdf_upload.py:0
+msgid "There is no template that can be applied"
+msgstr "Немає шаблону, який можна застосувати"

@@ -325,3 +325,240 @@ msgid ""
 msgstr ""
 "Завантажте файл відповіді на замовлення, отриманий від постачальника. "
 "Підтримувані формати: XML і PDF (PDF із вбудованим XML-файлом)."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+msgid "%d new order line(s) created: %s"
+msgstr "Створено нових рядків замовлення: %d: %s"
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+msgid "%d order line(s) are not in the imported quotation: %s"
+msgstr "%d рядок(и) замовлення відсутні в імпортованій пропозиції: %s"
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid "%s items should be delivered into a next delivery."
+msgstr "%s позицій потрібно доставити наступною доставкою."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid "Missing document file"
+msgstr "Відсутній файл документа"
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid "Missing document filename"
+msgstr "Відсутня назва файлу документа"
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+msgid "Missing quote file"
+msgstr "Відсутній файл пропозиції"
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+msgid "Missing quote filename"
+msgstr "Відсутня назва файлу пропозиції"
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid ""
+"More than one move found for PO line.\n"
+"Move IDs: %s\n"
+"Line Info: %s"
+msgstr ""
+"Для рядка замовлення на закупівлю знайдено більше одного переміщення.\n"
+"ID переміщень: %s\n"
+"Інформація про рядок: %s"
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid "No backorder planned by the supplier."
+msgstr "Постачальник не планує недопоставку."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid "No purchase order found for name %s."
+msgstr "Замовлення на закупівлю з назвою %s не знайдено."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid "PO cancelled by the supplier."
+msgstr "Замовлення на закупівлю скасовано постачальником."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid "PO confirmed by the supplier."
+msgstr "Замовлення на закупівлю підтверджено постачальником."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid "PO confirmed with amendment by the supplier."
+msgstr "Замовлення на закупівлю підтверджено зі зміною постачальника."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid ""
+"Some operations have already started! Please validate or reset operations on"
+" picking %s to ensure delivery slip to be computed."
+msgstr ""
+"Деякі операції вже розпочато! Підтвердьте або скиньте операції в переміщенні"
+" %s, щоб коректно розрахувати накладну."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid ""
+"The currency of the imported OrderResponse (%s) is different from the "
+"currency of the purchase order (%s)."
+msgstr ""
+"Валюта імпортованого OrderResponse (%s) відрізняється від валюти замовлення "
+"на закупівлю (%s)."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+msgid ""
+"The currency of the imported quotation (%s) is different from the currency "
+"of the RFQ (%s)"
+msgstr ""
+"Валюта імпортованої пропозиції (%s) відрізняється від валюти запиту ціни "
+"(%s)"
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+msgid ""
+"The incoterm has been updated from %s to %s upon import of the quotation "
+"file '%s'"
+msgstr "Під час імпорту файлу пропозиції «%s» Incoterm оновлено з %s на %s"
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+msgid ""
+"The quantity has been updated on the RFQ line with product '%s' from %s to "
+"%s %s."
+msgstr "Кількість у рядку запиту ціни для товару «%s» оновлено з %s до %s %s."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid ""
+"The supplier of the imported OrderResponse (%s) is different from the "
+"supplier of the purchase order (%s)."
+msgstr ""
+"Постачальник імпортованого OrderResponse (%s) відрізняється від "
+"постачальника замовлення на закупівлю (%s)."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+msgid ""
+"The supplier of the imported quotation (%s) is different from the supplier "
+"of the RFQ (%s)."
+msgstr ""
+"Постачальник імпортованої пропозиції (%s) відрізняється від постачальника "
+"запиту ціни (%s)."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+msgid ""
+"The unit price has been updated on the RFQ line with product '%s' from %s to"
+" %s %s."
+msgstr ""
+"Ціну за одиницю в рядку запиту ціни для товару «%s» оновлено з %s до %s %s."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+msgid ""
+"This RFQ has been updated automatically via the import of quotation file %s"
+msgstr ""
+"Цей запит ціни автоматично оновлено через імпорт файлу комерційної "
+"пропозиції %s"
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid ""
+"This file '%s' is not recognised as XML nor PDF file. Please check the file "
+"and it's extension."
+msgstr ""
+"Файл '%s' не розпізнано ні як XML, ні як PDF. Перевірте файл і його "
+"розширення."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid ""
+"This purchase order has been updated automatically via the import of "
+"OrderResponse file %s."
+msgstr ""
+"Це замовлення на закупівлю автоматично оновлено через імпорт файлу "
+"OrderResponse %s."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+msgid "This quotation doesn't have any line !"
+msgstr "У цій комерційній пропозиції немає жодного рядка!"
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid ""
+"This type of XML Order Document is not supported. Did you install the module"
+" to support this XML format?"
+msgstr ""
+"Цей тип XML-документа замовлення не підтримується. Чи встановлено модуль "
+"підтримки цього XML-формату?"
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid ""
+"This type of XML Order Response is not supported. Did you install the module"
+" to support this XML format?"
+msgstr ""
+"Цей тип XML-відповіді на замовлення не підтримується. Чи встановлено модуль "
+"підтримки цього XML-формату?"
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+msgid ""
+"This type of XML quotation is not supported. Did you install the module to "
+"support this XML format?"
+msgstr ""
+"Цей тип XML-комерційної пропозиції не підтримується. Чи встановлено модуль "
+"підтримки цього формату XML?"
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid "Unknown status '%s'."
+msgstr "Невідомий статус '%s'."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+msgid "You must select a quotation to update."
+msgstr "Потрібно вибрати комерційну пропозицію для оновлення."

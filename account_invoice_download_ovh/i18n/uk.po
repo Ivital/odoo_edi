@@ -242,3 +242,65 @@ msgstr "ID вашого облікового запису OVH (тобто лог
 #: model:ir.model,name:account_invoice_download_ovh.model_ovh_api_credentials
 msgid "Generate OVH API credentials"
 msgstr "Створити облікові дані API OVH"
+
+#. module: account_invoice_download_ovh
+#. odoo-python
+#: code:addons/account_invoice_download_ovh/models/account_invoice_download_config.py:0
+msgid ""
+"Cannot connect to the OVH API with endpoint '%(endpoint)s'. The error "
+"message is: '%(error)s'."
+msgstr ""
+"Не вдалося підключитися до API OVH через кінцеву точку «%(endpoint)s». "
+"Помилка: «%(error)s»."
+
+#. module: account_invoice_download_ovh
+#. odoo-python
+#: code:addons/account_invoice_download_ovh/wizard/ovh_api_credentials.py:0
+msgid ""
+"Go to the Validation URL, enter the required information and validate, then "
+"check the option to attest that you did it."
+msgstr ""
+"Перейдіть за URL перевірки, введіть потрібну інформацію та підтвердьте її, "
+"потім позначте опцію, що ви це зробили."
+
+#. module: account_invoice_download_ovh
+#. odoo-python
+#: code:addons/account_invoice_download_ovh/models/account_invoice_download_config.py:0
+msgid ""
+"Skipping OVH invoice %(invoice_number)s dated %(date)s because it is a "
+"special pre-paid invoice."
+msgstr ""
+"Рахунок OVH %(invoice_number)s від %(date)s пропущено, оскільки це "
+"спеціальний передплачений рахунок."
+
+#. module: account_invoice_download_ovh
+#. odoo-python
+#: code:addons/account_invoice_download_ovh/models/account_invoice_download_config.py:0
+msgid ""
+"Skipping OVH invoice %(invoice_number)s dated %(date)s because the amount is"
+" 0"
+msgstr ""
+"Рахунок OVH %(invoice_number)s від %(date)s пропущено, оскільки сума "
+"дорівнює 0"
+
+#. module: account_invoice_download_ovh
+#. odoo-python
+#: code:addons/account_invoice_download_ovh/wizard/ovh_api_credentials.py:0
+msgid ""
+"The endpoint, the application key and the application secret must be set "
+"before validation."
+msgstr ""
+"Перед перевіркою потрібно вказати кінцеву точку, ключ застосунку та секрет "
+"застосунку."
+
+#. module: account_invoice_download_ovh
+#. odoo-python
+#: code:addons/account_invoice_download_ovh/wizard/ovh_api_credentials.py:0
+msgid "The request to generate the consumer key failed."
+msgstr "Не вдалося виконати запит на генерацію ключа споживача."
+
+#. module: account_invoice_download_ovh
+#. odoo-python
+#: code:addons/account_invoice_download_ovh/models/account_invoice_download_config.py:0
+msgid "You must set all the OVH parameters."
+msgstr "Потрібно задати всі параметри OVH."

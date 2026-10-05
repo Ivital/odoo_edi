@@ -27,3 +27,11 @@ msgstr "), як XML-файл або PDF-файл із вкладенням UBL X
 #: model:ir.model,name:account_invoice_import_ubl.model_account_invoice_import
 msgid "Wizard to import supplier invoices/refunds"
 msgstr "Майстер імпорту рахунків/повернень постачальника"
+
+#. module: account_invoice_import_ubl
+#. odoo-python
+#: code:addons/account_invoice_import_ubl/wizard/account_invoice_import.py:0
+msgid ""
+"This UBL XML file is not an invoice/refund file (InvoiceTypeCode is %s)."
+msgstr ""
+"Цей UBL XML-файл не є файлом рахунку/повернення (InvoiceTypeCode = %s)."

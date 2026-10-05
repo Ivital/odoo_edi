@@ -262,3 +262,169 @@ msgid ""
 msgstr ""
 "Завантажте запит комерційної пропозиції або файл замовлення. Підтримувані "
 "формати: XML і PDF (PDF із вбудованим XML-файлом)."
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid "%(orders)s new order line(s) created: %(label)s"
+msgstr "Створено новий рядок(и) замовлення %(orders)s: %(label)s"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid "%(orders)s order line(s) deleted: %(label)s"
+msgstr "Видалено рядок(и) замовлення %(orders)s: %(label)s"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid ""
+"An order of customer '%(partner)s' with reference '%(ref)s' already exists: "
+"%(name)s (state: %(state)s)"
+msgstr ""
+"Замовлення клієнта «%(partner)s» з посиланням «%(ref)s» уже існує: %(name)s "
+"(стан: %(state)s)"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid "Created automatically via file import (%s)."
+msgstr "Створено автоматично через імпорт файлу (%s)."
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid "Created invoice partner '%s'"
+msgstr "Створено партнера для рахунку '%s'"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid "Created shipping partner '%s'"
+msgstr "Створено партнера доставки '%s'"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid "No data provided"
+msgstr "Дані не надано"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid ""
+"No price is defined in the file. Please double check file or select "
+"Pricelist as the source for prices."
+msgstr ""
+"У файлі не визначено ціну. Перевірте файл або виберіть прайс-лист як джерело"
+" цін."
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid "Please select a valid import type before importing!"
+msgstr "Перед імпортом виберіть дійсний тип імпорту!"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid ""
+"The currency of the imported order (%(old)s) is different from the currency "
+"of the existing order (%(new)s)"
+msgstr ""
+"Валюта імпортованого замовлення (%(old)s) відрізняється від валюти наявного "
+"замовлення (%(new)s)"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid ""
+"The customer '%(name)s' has a pricelist '%(pricelist)s' but the currency of "
+"this order is '%(currency)s'."
+msgstr ""
+"Клієнт «%(name)s» має прайс-лист «%(pricelist)s», але валюта цього "
+"замовлення — «%(currency)s»."
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid ""
+"The quantity has been updated on the order line with product '%(product)s' "
+"from %(qty0)s to %(qty1)s %(uom)s"
+msgstr ""
+"Кількість у рядку замовлення для товару «%(product)s» оновлено з %(qty0)s до"
+" %(qty1)s %(uom)s"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid ""
+"The unit price has been updated on the order line with product '%(product)s'"
+" from %(old)s to %(new)s %(currency)s"
+msgstr ""
+"Ціну за одиницю в рядку замовлення з товаром «%(product)s» оновлено з "
+"%(old)s до %(new)s %(currency)s"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid ""
+"This Import Type is not supported. Did you install the module to support "
+"this type?"
+msgstr ""
+"Цей тип імпорту не підтримується. Можливо, не встановлено модуль підтримки "
+"цього типу."
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid ""
+"This file '%(filename)s' is not recognized as a %(type)s file. Please check "
+"the file and its extension."
+msgstr ""
+"Файл «%(filename)s» не розпізнано як файл %(type)s. Перевірте файл і його "
+"розширення."
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid ""
+"This file '%s' is not recognised as a XML nor PDF file. Please check the "
+"file and it's extension."
+msgstr ""
+"Файл «%s» не розпізнано як XML або PDF. Перевірте файл і його розширення."
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid "This order doesn't have any line !"
+msgstr "Це замовлення не має рядків!"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid ""
+"This quotation has been updated automatically via the import of file %s"
+msgstr "Цю комерційну пропозицію автоматично оновлено через імпорт файлу %s"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid ""
+"This type of XML RFQ/order is not supported. Did you install the module to "
+"support this XML format?"
+msgstr ""
+"Цей тип XML-запиту цін/замовлення не підтримується. Чи встановлено модуль "
+"підтримки цього формату XML?"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid "Unsupported file format"
+msgstr "Непідтримуваний формат файлу"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid "You must select a quotation to update."
+msgstr "Потрібно вибрати комерційну пропозицію для оновлення."

@@ -361,3 +361,62 @@ msgstr ""
 #: model:ir.model,name:account_invoice_download.model_account_invoice_download_credentials
 msgid "Wizard to ask credentials to download invoice"
 msgstr "Майстер запиту облікових даних для завантаження рахунка"
+
+#. module: account_invoice_download
+#. odoo-python
+#: code:addons/account_invoice_download/models/account_invoice_download_config.py:0
+msgid "Download Bill '%s'"
+msgstr "Завантажити рахунок '%s'"
+
+#. module: account_invoice_download
+#. odoo-python
+#: code:addons/account_invoice_download/models/account_invoice_download_config.py:0
+msgid ""
+"Failed to create invoice. Error: %(error)s. (parsed_inv=%(parsed_inv)s "
+"import_config=%(import_config)s)"
+msgstr ""
+"Не вдалося створити рахунок. Помилка: %(error)s. (parsed_inv=%(parsed_inv)s "
+"import_config=%(import_config)s)"
+
+#. module: account_invoice_download
+#. odoo-python
+#: code:addons/account_invoice_download/models/account_invoice_download_config.py:0
+msgid "Failed to download invoice. Error: %s."
+msgstr "Не вдалося завантажити рахунок. Помилка: %s."
+
+#. module: account_invoice_download
+#. odoo-python
+#: code:addons/account_invoice_download/models/account_invoice_download_config.py:0
+msgid ""
+"Invoice number '%(invoice_number)s' dated %(date)s created (ID "
+"%(invoice_id)d)."
+msgstr ""
+"Створено рахунок № «%(invoice_number)s» від %(date)s (ID %(invoice_id)d)."
+
+#. module: account_invoice_download
+#. odoo-python
+#: code:addons/account_invoice_download/wizard/account_invoice_download_credentials.py:0
+msgid "Missing Invoice Download Config."
+msgstr "Відсутня конфігурація завантаження рахунків."
+
+#. module: account_invoice_download
+#. odoo-python
+#: code:addons/account_invoice_download/models/account_invoice_download_config.py:0
+msgid "No backend configured for download configuration '%s'."
+msgstr "Для конфігурації завантаження «%s» не налаштовано бекенд."
+
+#. module: account_invoice_download
+#. odoo-python
+#: code:addons/account_invoice_download/models/account_invoice_download_config.py:0
+msgid "No invoice downloaded."
+msgstr "Рахунок не завантажено."
+
+#. module: account_invoice_download
+#. odoo-python
+#: code:addons/account_invoice_download/models/account_invoice_download_config.py:0
+msgid ""
+"Skipping invoice %(invoice)s dated %(date)s because it already exists in "
+"Odoo (ID %(invoice_id)s)."
+msgstr ""
+"Рахунок %(invoice)s від %(date)s пропущено, оскільки він уже існує в Odoo "
+"(ID %(invoice_id)s)."

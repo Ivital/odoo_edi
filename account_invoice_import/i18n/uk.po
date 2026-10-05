@@ -423,3 +423,253 @@ msgstr "Цей email імпорту рахунків уже існує!"
 #: model:ir.model,name:account_invoice_import.model_account_invoice_import_partner_create
 msgid "Wizard to create a new partner or update an existing partner"
 msgstr "Майстер для створення нового партнера або оновлення наявного"
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid "%d vendor bill(s) created"
+msgstr "Створено рахунків постачальника: %d"
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid ""
+"<strong>The total amount of the imported invoice is %(real_amount_total)s "
+"whereas the total amount computed by Odoo is "
+"%(current_amount_total)s</strong>. It is the consequence of a difference "
+"between the total tax amount of the invoice (%(real_amount_tax)s) and the "
+"total tax amount computed by Odoo (%(current_amount_tax)s). This is often "
+"caused by missing taxes in invoice lines due to a failure to find the tax in"
+" Odoo that correspond to the tax in the imported invoice or missing "
+"configuration of taxes on products or missing configuration of <em>Default "
+"Taxes</em> on the partner (if there are no products on invoice lines)."
+msgstr ""
+"<strong>Загальна сума імпортованого рахунка становить %(real_amount_total)s,"
+" тоді як загальна сума, обчислена Odoo, становить "
+"%(current_amount_total)s</strong>. Це є наслідком різниці між загальною "
+"сумою податку рахунка (%(real_amount_tax)s) та загальною сумою податку, "
+"обчисленою Odoo (%(current_amount_tax)s). Часто це спричинено відсутніми "
+"податками в рядках рахунка через неможливість знайти в Odoo податок, що "
+"відповідає податку в імпортованому рахунку, відсутніми налаштуваннями "
+"податків для товарів або відсутнім налаштуванням <em>Податків за "
+"замовчуванням</em> для партнера (якщо в рядках рахунка немає товарів)."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid "Adjustment"
+msgstr "Коригування"
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid "Adjustment on %s"
+msgstr "Коригування для %s"
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid "Import of file %s"
+msgstr "Імпорт файлу %s"
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid "Invoice '%(filename)s' already exists in Odoo: %(existing_inv)s."
+msgstr "Рахунок «%(filename)s» уже існує в Odoo: %(existing_inv)s."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid ""
+"Matched UoM is <strong>%(matched_uom)s</strong>, but this UoM doesn't belong"
+" to the same category as UoM <strong>%(product_uom)s</strong> configured on "
+"product <em>%(product)s</em>. So Odoo has set the UoM of the product "
+"(%(product_uom)s)."
+msgstr ""
+"Зіставлена одиниця вимірювання — <strong>%(matched_uom)s</strong>, але вона "
+"не належить до тієї самої категорії, що й одиниця вимірювання "
+"<strong>%(product_uom)s</strong>, налаштована для товару "
+"<em>%(product)s</em>. Тому Odoo встановила одиницю вимірювання товару "
+"(%(product_uom)s)."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid "No invoice created."
+msgstr "Рахунок не створено."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid "No journal with type %(journal_type)s in company %(company)s."
+msgstr "У компанії %(company)s немає журналу типу %(journal_type)s."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid ""
+"Odoo failed to read the XML invoice '%(filename)s'. Did you install the Odoo"
+" module to support this type of file?"
+msgstr ""
+"Odoo не вдалося прочитати XML-рахунок «%(filename)s». Чи встановлено модуль "
+"Odoo для підтримки цього типу файлу?"
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid "Only the date format 102 is supported."
+msgstr "Підтримується лише формат дати 102."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/models/res_partner.py:0
+msgid ""
+"Partner <a href=# data-oe-model=res.partner data-oe-"
+"id=%(partner_id)s>%(partner_name)s</a> has been created via the wizard "
+"<em>Create or update partner</em>."
+msgstr ""
+"Партнера <a href=# data-oe-model=res.partner data-oe-"
+"id=%(partner_id)s>%(partner_name)s</a> створено через майстер <em>Створити "
+"або оновити партнера</em>."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import_partner_create.py:0
+msgid ""
+"Partner <a href=# data-oe-model=res.partner data-oe-"
+"id=%(partner_id)s>%(partner_name)s</a> has been set via the wizard "
+"<em>Create or Update Partner</em>. The partner has been updated."
+msgstr ""
+"Партнера <a href=# data-oe-model=res.partner data-oe-"
+"id=%(partner_id)s>%(partner_name)s</a> встановлено за допомогою майстра "
+"<em>Створити або оновити партнера</em>. Партнера оновлено."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/models/res_partner.py:0
+msgid ""
+"Partner has been created from the wizard <em>Create or Update Partner</em> "
+"of vendor bill import."
+msgstr ""
+"Партнера створено через майстер <em>Створити або оновити партнера</em> "
+"імпорту рахунку постачальника."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/models/res_partner.py:0
+msgid ""
+"Partner updated via the wizard <em>Create or Update Partner</em> of Vendor "
+"Bill import."
+msgstr ""
+"Партнера оновлено через майстер <em>Створити або оновити партнера</em> "
+"імпорту рахунку постачальника."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid ""
+"The <strong>total tax amount</strong> has been <strong>forced</strong> to "
+"%(forced_amount)s (amount computed by Odoo was: %(initial_amount)s)."
+msgstr ""
+"<strong>Загальну суму податку</strong> було <strong>примусово</strong> "
+"встановлено на %(forced_amount)s (сума, обчислена Odoo: %(initial_amount)s)."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid "The XML file '%(filename)s' is not XML-compliant. Error: %(err)s"
+msgstr "XML-файл «%(filename)s» не відповідає XML. Помилка: %(err)s"
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/models/res_partner.py:0
+msgid "The vendor bill %(move)s already has a partner %(partner)s."
+msgstr "Рахунок постачальника %(move)s уже має партнера %(partner)s."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid ""
+"This invoice has been created automatically via file import. Origin: "
+"<strong>%s</strong>."
+msgstr ""
+"Цей рахунок автоматично створено через імпорт файлу. Джерело: "
+"<strong>%s</strong>."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid ""
+"You are importing a customer invoice/refund in journal '%s' which is not a "
+"sale journal."
+msgstr ""
+"Ви імпортуєте рахунок/повернення клієнта в журнал «%s», який не є журналом "
+"продажу."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid ""
+"You are importing a vendor bill/refund in journal '%s' which is not a "
+"purchase journal."
+msgstr ""
+"Ви імпортуєте рахунок/повернення постачальника в журнал «%s», який не є "
+"журналом закупівель."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid ""
+"You are importing an invoice in company %(company)s that cannot deduct VAT "
+"and the imported invoice has several VAT taxes on the same line (%(line)s). "
+"We do not support this scenario for the moment."
+msgstr ""
+"Ви імпортуєте рахунок у компанію %(company)s, яка не може відраховувати ПДВ,"
+" а імпортований рахунок містить кілька податків ПДВ в одному рядку "
+"(%(line)s). Наразі цей сценарій не підтримується."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid ""
+"You must configure the 'Adjustment Credit Account' on the Accounting "
+"Configuration page of company %(company)s."
+msgstr ""
+"Потрібно налаштувати «Кредитовий рахунок коригування» на сторінці "
+"бухгалтерських налаштувань компанії %(company)s."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid ""
+"You must configure the 'Adjustment Debit Account' on the Accounting "
+"Configuration page of company %(company)s."
+msgstr ""
+"Потрібно налаштувати «Дебетовий рахунок коригування» на сторінці "
+"бухгалтерських налаштувань компанії %(company)s."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import_partner_create.py:0
+msgid "You must select the partner to update."
+msgstr "Потрібно вибрати партнера для оновлення."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid "You must select the vendor bills to import."
+msgstr "Потрібно вибрати рахунки постачальника для імпорту."
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid ""
+"email sent by <b>{email_from}</b> on {date} with subject <b>{subject}</b>"
+msgstr "лист надіслано <b>{email_from}</b> {date} з темою <b>{subject}</b>"
+
+#. module: account_invoice_import
+#. odoo-python
+#: code:addons/account_invoice_import/wizard/account_invoice_import.py:0
+msgid "unspecified"
+msgstr "не вказано"

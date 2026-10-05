@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model,name:base_ubl_parse.model_base_ubl
 msgid "Common methods to generate and parse UBL XML files"
 msgstr "Спільні методи створення й розбору XML-файлів UBL"
+
+#. module: base_ubl_parse
+#. odoo-python
+#: code:addons/base_ubl_parse/models/ubl.py:0
+msgid ""
+"The UBL XML file does not contain the version for validating the content "
+"according to the schema."
+msgstr ""
+"UBL XML-файл не містить версії для перевірки вмісту відповідно до схеми."

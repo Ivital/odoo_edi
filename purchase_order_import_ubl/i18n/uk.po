@@ -22,3 +22,15 @@ msgstr "Імпорт замовлення на закупівлю з файлі�
 #: model:ir.model,name:purchase_order_import_ubl.model_purchase_order_response_import
 msgid "Purchase Order Response Import from Files"
 msgstr "Імпорт відповіді на замовлення на закупівлю з файлів"
+
+#. module: purchase_order_import_ubl
+#. odoo-python
+#: code:addons/purchase_order_import_ubl/wizard/purchase_order_response_import.py:0
+msgid "Unknown response code found '%(code)s'"
+msgstr "Знайдено невідомий код відповіді «%(code)s»"
+
+#. module: purchase_order_import_ubl
+#. odoo-python
+#: code:addons/purchase_order_import_ubl/wizard/purchase_order_response_import.py:0
+msgid "Unsupported line status code found '%(code)s'"
+msgstr "Знайдено непідтримуваний код стану рядка «%(code)s»"

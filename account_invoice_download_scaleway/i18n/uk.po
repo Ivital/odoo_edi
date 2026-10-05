@@ -27,3 +27,16 @@ msgstr "Секретний ключ Scaleway"
 #: model:ir.model,name:account_invoice_download_scaleway.model_account_invoice_download_config
 msgid "Configuration for the download of Supplier Invoices"
 msgstr "Конфігурація завантаження рахунків постачальників"
+
+#. module: account_invoice_download_scaleway
+#. odoo-python
+#: code:addons/account_invoice_download_scaleway/models/account_invoice_download_config.py:0
+msgid "Cannot connect to the Scaleway API. Error message: '%s'."
+msgstr ""
+"Не вдалося підключитися до API Scaleway. Повідомлення про помилку: «%s»."
+
+#. module: account_invoice_download_scaleway
+#. odoo-python
+#: code:addons/account_invoice_download_scaleway/models/account_invoice_download_config.py:0
+msgid "You must set the Scaleway Secret key."
+msgstr "Потрібно вказати секретний ключ Scaleway."

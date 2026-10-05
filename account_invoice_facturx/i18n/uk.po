@@ -45,3 +45,93 @@ msgstr "XML-формат, вбудований у PDF-рахунок"
 #: model:ir.model.fields,help:account_invoice_facturx.field_res_company__facturx_logo
 msgid "Logo to include in the visible part of Factur-X invoices"
 msgstr "Логотип для включення у видиму частину рахунків Factur-X"
+
+#. module: account_invoice_facturx
+#. odoo-python
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+msgid "(no date)"
+msgstr "(без дати)"
+
+#. module: account_invoice_facturx
+#. odoo-python
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+msgid ""
+"Country is not set on partner '%s'. In the Factur-X standard, the country is"
+" required for buyer and seller."
+msgstr ""
+"У партнера «%s» не вказано країну. Стандарт Factur-X вимагає країну для "
+"покупця і продавця."
+
+#. module: account_invoice_facturx
+#. odoo-python
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+msgid ""
+"Factur-X {invoice_type} {invoice_number} dated {invoice_date} issued by "
+"{company_name}"
+msgstr ""
+"Factur-X {invoice_type} {invoice_number} від {invoice_date}, виданий "
+"{company_name}"
+
+#. module: account_invoice_facturx
+#. odoo-python
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+msgid "Missing UNECE Tax Category on tax '%s'"
+msgstr "Для податку «%s» відсутня категорія податку UNECE"
+
+#. module: account_invoice_facturx
+#. odoo-python
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+msgid "Missing UNECE Tax Type on tax '%s'"
+msgstr "Відсутній тип податку UNECE для податку '%s'"
+
+#. module: account_invoice_facturx
+#. odoo-python
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+msgid "Missing UNECE code on payment method '%s'."
+msgstr "У способі оплати «%s» відсутній код UNECE."
+
+#. module: account_invoice_facturx
+#. odoo-python
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+msgid "No invoice line label"
+msgstr "Відсутня мітка рядка рахунку"
+
+#. module: account_invoice_facturx
+#. odoo-python
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+msgid "No specific payment term selected"
+msgstr "Не вибрано конкретний термін оплати"
+
+#. module: account_invoice_facturx
+#. odoo-python
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+msgid ""
+"On invoice %(invoice)s, the invoice line '%(line)s' has a tax '%(tax)s' "
+"which is not a VAT tax and is not configured with the option 'Affect Base of"
+" Subsequent Taxes'. This is not supported."
+msgstr ""
+"У рахунку %(invoice)s рядок '%(line)s' має податок '%(tax)s', який не є ПДВ "
+"і не налаштований з опцією «Впливає на базу наступних податків». Цей "
+"сценарій не підтримується."
+
+#. module: account_invoice_facturx
+#. odoo-python
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+msgid ""
+"On invoice %(invoice)s, there are several VAT taxes on invoice line "
+"%(line)s. This should not happen."
+msgstr ""
+"У рахунку %(invoice)s є кілька податків ПДВ у рядку %(line)s. Такого не "
+"повинно траплятися."
+
+#. module: account_invoice_facturx
+#. odoo-python
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+msgid "Wire transfer"
+msgstr "Банківський переказ"
+
+#. module: account_invoice_facturx
+#. odoo-python
+#: code:addons/account_invoice_facturx/models/account_move.py:0
+msgid "{company_name}: {invoice_type} {invoice_number} dated {invoice_date}"
+msgstr "{company_name}: {invoice_type} {invoice_number} від {invoice_date}"

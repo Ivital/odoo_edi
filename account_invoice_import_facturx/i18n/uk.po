@@ -32,3 +32,94 @@ msgid ""
 msgstr ""
 "2.x) і ZUGFeRD 1.0: PDF-файл із XML-вкладенням у форматі "
 "CrossIndustryInvoice."
+
+#. module: account_invoice_import_facturx
+#. odoo-python
+#: code:addons/account_invoice_import_facturx/wizard/account_invoice_import.py:0
+msgid ""
+"AllowanceTotalAmount (%(total)s) doesn't match the sum of the allowance "
+"lines (%(sum_lines)s). Maybe it is because the Factur-X XML file is at BASIC"
+" level, and we don't have the details of taxes for the allowance lines."
+msgstr ""
+"AllowanceTotalAmount (%(total)s) не відповідає сумі рядків знижок "
+"(%(sum_lines)s). Можливо, причина в тому, що XML-файл Factur-X має рівень "
+"BASIC, і деталі податків для рядків знижок недоступні."
+
+#. module: account_invoice_import_facturx
+#. odoo-python
+#: code:addons/account_invoice_import_facturx/wizard/account_invoice_import.py:0
+msgid ""
+"ChargeTotalAmount (%(total_charge)s) doesn't match the sum of the charge "
+"lines (%(sum_lines)s). Maybe it is because the Factur-X XML file is at BASIC"
+" level, and we don't have the details of taxes for the charge lines."
+msgstr ""
+"ChargeTotalAmount (%(total_charge)s) не відповідає сумі рядків нарахувань "
+"(%(sum_lines)s). Можливо, причина в тому, що XML-файл Factur-X має рівень "
+"BASIC, і деталі податків для рядків нарахувань недоступні."
+
+#. module: account_invoice_import_facturx
+#. odoo-python
+#: code:addons/account_invoice_import_facturx/wizard/account_invoice_import.py:0
+msgid ""
+"For the moment, in the Factur-X import, we only support type code 380 and "
+"381. (TypeCode is %s)"
+msgstr ""
+"Наразі в імпорті Factur-X підтримуються лише коди типу 380 і 381. (TypeCode "
+"= %s)"
+
+#. module: account_invoice_import_facturx
+#. odoo-python
+#: code:addons/account_invoice_import_facturx/wizard/account_invoice_import.py:0
+msgid "Logistics Service"
+msgstr "Логістична послуга"
+
+#. module: account_invoice_import_facturx
+#. odoo-python
+#: code:addons/account_invoice_import_facturx/wizard/account_invoice_import.py:0
+msgid "Misc Allowance"
+msgstr "Інша надбавка"
+
+#. module: account_invoice_import_facturx
+#. odoo-python
+#: code:addons/account_invoice_import_facturx/wizard/account_invoice_import.py:0
+msgid "Misc Charge"
+msgstr "Інший збір"
+
+#. module: account_invoice_import_facturx
+#. odoo-python
+#: code:addons/account_invoice_import_facturx/wizard/account_invoice_import.py:0
+msgid "Misc Global Allowance"
+msgstr "Інша глобальна надбавка"
+
+#. module: account_invoice_import_facturx
+#. odoo-python
+#: code:addons/account_invoice_import_facturx/wizard/account_invoice_import.py:0
+msgid "Misc Global Charge"
+msgstr "Інший глобальний збір"
+
+#. module: account_invoice_import_facturx
+#. odoo-python
+#: code:addons/account_invoice_import_facturx/wizard/account_invoice_import.py:0
+msgid ""
+"The GrandTotalAmount is %(amount_total)s but the sum of the lines plus the "
+"total charge plus the total trade allowance plus the total taxes is "
+"%(check_total)s."
+msgstr ""
+"GrandTotalAmount = %(amount_total)s, але сума рядків + загальні нарахування "
+"+ загальні торгові знижки + загальні податки = %(check_total)s."
+
+#. module: account_invoice_import_facturx
+#. odoo-python
+#: code:addons/account_invoice_import_facturx/wizard/account_invoice_import.py:0
+msgid ""
+"The XML file embedded in the Factur-X invoice is invalid according to the "
+"official XML Schema Definition. Error: %s."
+msgstr ""
+"XML-файл, вбудований у рахунок Factur-X, недійсний згідно з офіційним XML "
+"Schema Definition. Помилка: %s."
+
+#. module: account_invoice_import_facturx
+#. odoo-python
+#: code:addons/account_invoice_import_facturx/wizard/account_invoice_import.py:0
+msgid "Unknown ChargeIndicator '%s'."
+msgstr "Невідомий ChargeIndicator '%s'."

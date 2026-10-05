@@ -518,3 +518,377 @@ msgstr "тире"
 #: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
 msgid "unknown"
 msgstr "невідомо"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid ", Position: %d"
+msgstr ", Позиція: %d"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Amount Setup"
+msgstr "Налаштування суми"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/account_invoice_import_simple_pdf_fields.py:0
+msgid "Bad configuration"
+msgstr "Неправильна конфігурація"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid ""
+"Could not get the decimal separator for partner '%s': the fields 'Language' "
+"and 'Decimal Separator' are both empty for this partner."
+msgstr ""
+"Не вдалося отримати десятковий роздільник для партнера «%s»: поля «Мова» і "
+"«Десятковий роздільник» порожні."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Current partner found"
+msgstr "Поточного партнера знайдено"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "DD MM YY"
+msgstr "ДД ММ РР"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "DD MM YYYY"
+msgstr "ДД ММ РРРР"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "DD Month YY"
+msgstr "ДД Місяць РР"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "DD Month YYYY"
+msgstr "ДД Місяць РРРР"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Decimal Separator:"
+msgstr "Десятковий роздільник:"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Error message"
+msgstr "Повідомлення про помилку"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Errors are in red."
+msgstr "Помилки позначено червоним."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Extract Rule:"
+msgstr "Правило вилучення:"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid ""
+"For partner '%(partner_name)s', the decimal separator (%(decimal_sep)s) is "
+"the same as the thousand separator (%(thousand_sep)s). Keep in mind that, if"
+" not set explicitly, decimal and thousand separator are read from the "
+"language of the partner."
+msgstr ""
+"Для партнера '%(partner_name)s' десятковий роздільник (%(decimal_sep)s) "
+"збігається з роздільником тисяч (%(thousand_sep)s). Зауважте: якщо їх не "
+"задано явно, десятковий роздільник і роздільник тисяч визначаються з мови "
+"партнера."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid ""
+"For partner '%s', only one amount field is configured but it is not 'Amount "
+"Total'."
+msgstr ""
+"Для партнера «%s» налаштовано лише одне поле суми, але це не «Загальна "
+"сума»."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid ""
+"For partner '%s', the decimal separator cannot be the same as the thousand "
+"separator."
+msgstr ""
+"Для партнера «%s» десятковий роздільник не може збігатися з роздільником "
+"тисяч."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Found another partner:"
+msgstr "Знайдено іншого партнера:"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "MM DD YY"
+msgstr "ММ ДД РР"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "MM DD YYYY"
+msgstr "ММ ДД РРРР"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/account_invoice_import_simple_pdf_invoice_number.py:0
+msgid "Missing fixed char."
+msgstr "Відсутній фіксований символ."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Missing invoice number format configuration on partner '%s'."
+msgstr "Для партнера «%s» відсутнє налаштування формату номера рахунку."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/wizard/account_invoice_import.py:0
+msgid "Missing parse method for field '%s'. This should never happen."
+msgstr "Для поля «%s» відсутній метод розбору. Такого не повинно траплятися."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Month DD YY"
+msgstr "Місяць ДД РР"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Month DD YYYY"
+msgstr "Місяць ДД РРРР"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/account_invoice_import_simple_pdf_fields.py:0
+msgid ""
+"No date format configured on partner '%(partner_name)s' nor on the field "
+"'%(field_name)s'."
+msgstr ""
+"Формат дати не налаштовано ні для партнера «%(partner_name)s», ні для поля "
+"«%(field_name)s»."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/account_invoice_import_simple_pdf_fields.py:0
+msgid ""
+"No date separator configured on partner '%(partner_name)s' nor on the field "
+"'%(field_name)s'."
+msgstr ""
+"Роздільник дати не налаштовано ні для партнера «%(partner_name)s», ні для "
+"поля «%(field_name)s»."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "No partner found."
+msgstr "Партнера не знайдено."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/account_invoice_import_simple_pdf_fields.py:0
+msgid ""
+"No text to cut, maybe because start string was the very end of the document"
+msgstr ""
+"Немає тексту для обрізання, можливо, початковий рядок був у самому кінці "
+"документа"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/account_invoice_import_simple_pdf_fields.py:0
+msgid "No valid data extracted for field '%s'."
+msgstr "Для поля «%s» не вилучено дійсних даних."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/wizard/account_invoice_import.py:0
+msgid ""
+"Odoo could not extract the text from the PDF invoice with the method %s. "
+"Refer to the Odoo server logs for more technical information about the cause"
+" of the failure."
+msgstr ""
+"Odoo не вдалося витягти текст із PDF-рахунку методом %s. Докладнішу технічну"
+" інформацію дивіться в журналах сервера Odoo."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/wizard/account_invoice_import.py:0
+msgid ""
+"Odoo could not extract the text from the PDF invoice. Refer to the Odoo "
+"server logs for more technical information about the cause of the failure."
+msgstr ""
+"Odoo не вдалося витягти текст із PDF-рахунку. Докладнішу технічну інформацію"
+" про причину дивіться в журналах сервера Odoo."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Ordered List"
+msgstr "Нумерований список"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/account_invoice_import_simple_pdf_fields.py:0
+msgid ""
+"Partner '%(partner_name)s' is configured with an extract rule "
+"'%(extract_rule)s' with position %(position)s for field '%(field_name)s' but"
+" the list of extracted valid data only has %(entries_count)s entries."
+msgstr ""
+"Для партнера '%(partner_name)s' налаштовано правило витягання "
+"'%(extract_rule)s' з позицією %(position)s для поля '%(field_name)s', але "
+"список витягнутих допустимих даних містить лише %(entries_count)s записів."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Raw List"
+msgstr "Сирий список"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Regular Expression"
+msgstr "Регулярний вираз"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Searching Partner"
+msgstr "Пошук партнера"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/account_invoice_import_simple_pdf_fields.py:0
+msgid "String '%s' not found"
+msgstr "Рядок '%s' не знайдено"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/account_invoice_import_simple_pdf_fields.py:0
+msgid "Successful cut on '%s'"
+msgstr "Успішно вирізано в '%s'"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/wizard/account_invoice_import.py:0
+msgid "Successful match on %(count)s keywords (%(keywords)s)"
+msgstr "Успішний збіг за %(count)s ключовими словами (%(keywords)s)"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/wizard/account_invoice_import.py:0
+msgid "Successful match on {label} '{value}'"
+msgstr "Успішний збіг за {label} «{value}»"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/wizard/account_invoice_import.py:0
+msgid ""
+"System Parameter 'invoice_import_simple_pdf.pdf2txt' has an invalid value "
+"'%s'."
+msgstr ""
+"Системний параметр 'invoice_import_simple_pdf.pdf2txt' має недійсне значення"
+" «%s»."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Test Date:"
+msgstr "Дата тесту:"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Text extraction system parameter:"
+msgstr "Системний параметр вилучення тексту:"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Text extraction tool used:"
+msgstr "Використаний інструмент вилучення тексту:"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/account_invoice_import_simple_pdf_invoice_number.py:0
+msgid ""
+"The maximum occurence (%(occurrence_max)s) must be equal to or above the "
+"minimum occurence (%(occurrence_min)s)."
+msgstr ""
+"Максимальна кількість входжень (%(occurrence_max)s) має бути не меншою за "
+"мінімальну (%(occurrence_min)s)."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "There is no amount field configured for partner '%s'."
+msgstr "Для партнера «%s» не налаштовано поле суми."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Thousand Separator:"
+msgstr "Роздільник тисяч:"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/wizard/account_invoice_import.py:0
+msgid "VAT number"
+msgstr "Номер ПДВ"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Valid-data Filtered List"
+msgstr "Список відфільтрованих дійсних даних"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "YYYY MM DD"
+msgstr "РРРР ММ ДД"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid ""
+"You must configure a field extraction rule for field 'Date' for partner "
+"'%s'."
+msgstr "Потрібно налаштувати правило вилучення поля «Дата» для партнера «%s»."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/account_invoice_import_simple_pdf_fields.py:0
+msgid "You must set a Specific Regular Expression on the 'Description' field."
+msgstr "Потрібно вказати спеціальний регулярний вираз у полі «Опис»."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "You must upload a test PDF invoice."
+msgstr "Потрібно завантажити тестовий PDF-рахунок."

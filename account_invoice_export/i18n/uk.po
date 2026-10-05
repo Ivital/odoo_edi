@@ -120,3 +120,61 @@ msgstr "Тайм-аут у секундах, 0 — без тайм-ауту."
 #: model:mail.activity.type,name:account_invoice_export.mail_activity_transmit_warning
 msgid "Transmission Error"
 msgstr "Помилка передавання"
+
+#. module: account_invoice_export
+#. odoo-python
+#: code:addons/account_invoice_export/models/account_move.py:0
+msgid "%(name)s (Invoice Record ID: %(id)s)"
+msgstr "%(name)s (ID запису рахунку: %(id)s)"
+
+#. module: account_invoice_export
+#. odoo-python
+#: code:addons/account_invoice_export/models/account_move.py:0
+msgid "An error of type {} occured."
+msgstr "Сталася помилка типу {}."
+
+#. module: account_invoice_export
+#. odoo-python
+#: code:addons/account_invoice_export/models/account_move.py:0
+msgid "HTTP error %s sending invoice to %s"
+msgstr "HTTP-помилка %s під час надсилання рахунку до %s"
+
+#. module: account_invoice_export
+#. odoo-python
+#: code:addons/account_invoice_export/models/account_move.py:0
+msgid "Invoice successfuly sent to {}"
+msgstr "Рахунок успішно надіслано до {}"
+
+#. module: account_invoice_export
+#. odoo-python
+#: code:addons/account_invoice_export/models/account_move.py:0
+msgid "Invoices not in 'Posted' state: %s"
+msgstr "Рахунки не в стані «Проведено»: %s"
+
+#. module: account_invoice_export
+#. odoo-python
+#: code:addons/account_invoice_export/models/account_move.py:0
+msgid ""
+"Invoices with unsupported type (only Customer Invoice or Refund are "
+"allowed): %s"
+msgstr ""
+"Рахунки непідтримуваного типу (дозволені лише рахунок клієнта або "
+"повернення): %s"
+
+#. module: account_invoice_export
+#. odoo-python
+#: code:addons/account_invoice_export/models/account_move.py:0
+msgid "No valid URL configured on transmit method '%s'."
+msgstr "Для методу передавання «%s» не налаштовано дійсний URL."
+
+#. module: account_invoice_export
+#. odoo-python
+#: code:addons/account_invoice_export/models/account_move.py:0
+msgid "Nothing done, invoice has already been exported before."
+msgstr "Нічого не зроблено: рахунок уже було експортовано."
+
+#. module: account_invoice_export
+#. odoo-python
+#: code:addons/account_invoice_export/models/account_move.py:0
+msgid "Transmit method is not configured to send through HTTP"
+msgstr "Метод передавання не налаштовано для надсилання через HTTP"
