@@ -30,3 +30,13 @@ msgstr "Рахунок-фактура"
 #: code:addons/account_invoice_facturx/models/account_move.py:0
 msgid "Refund"
 msgstr "Відшкодування"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_res_company__facturx_logo
+msgid "Factur-X Logo"
+msgstr "Логотип Factur-X"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields,field_description:account_invoice_facturx.field_res_company__xml_format_in_pdf_invoice
+msgid "XML Format embedded in PDF invoice"
+msgstr "XML-формат, вбудований у PDF-рахунок"

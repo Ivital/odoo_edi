@@ -27,3 +27,39 @@ msgstr "URL"
 #: model:ir.model.fields,field_description:account_invoice_export.field_transmit_method__destination_user
 msgid "User"
 msgstr "Користувач"
+
+#. module: account_invoice_export
+#. odoo-python
+#: code:addons/account_invoice_export/models/account_move.py:0
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: account_invoice_export
+#: model:ir.model.fields,field_description:account_invoice_export.field_account_bank_statement_line__send_through_http
+#: model:ir.model.fields,field_description:account_invoice_export.field_account_move__send_through_http
+#: model:ir.model.fields,field_description:account_invoice_export.field_transmit_method__send_through_http
+msgid "Enable send eBill"
+msgstr "Увімкнути надсилання eBill"
+
+#. module: account_invoice_export
+#: model:ir.model.fields,field_description:account_invoice_export.field_account_bank_statement_line__invoice_export_confirmed
+#: model:ir.model.fields,field_description:account_invoice_export.field_account_move__invoice_export_confirmed
+msgid "Invoice Export Confirmed"
+msgstr "Експорт рахунку підтверджено"
+
+#. module: account_invoice_export
+#: model:ir.model.fields,field_description:account_invoice_export.field_account_bank_statement_line__invoice_exported
+#: model:ir.model.fields,field_description:account_invoice_export.field_account_move__invoice_exported
+msgid "Invoice Exported"
+msgstr "Рахунок експортовано"
+
+#. module: account_invoice_export
+#: model_terms:ir.ui.view,arch_db:account_invoice_export.view_move_form
+msgid "Resend eBill"
+msgstr "Повторно надіслати eBill"
+
+#. module: account_invoice_export
+#: model:ir.actions.server,name:account_invoice_export.action_send_ebill
+#: model_terms:ir.ui.view,arch_db:account_invoice_export.view_move_form
+msgid "Send eBill"
+msgstr "Надіслати eBill"

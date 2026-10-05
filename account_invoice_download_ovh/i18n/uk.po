@@ -37,3 +37,84 @@ msgstr "Кінцева точка"
 #: model:ir.model.fields,field_description:account_invoice_download_ovh.field_ovh_api_credentials__state
 msgid "State"
 msgstr "Стан"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model.fields,field_description:account_invoice_download_ovh.field_ovh_api_credentials__application_key
+msgid "Application Key"
+msgstr "Ключ застосунку"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model.fields,field_description:account_invoice_download_ovh.field_ovh_api_credentials__application_url
+msgid "Application URL"
+msgstr "URL застосунку"
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model.fields,field_description:account_invoice_download_ovh.field_ovh_api_credentials__consumer_key
+msgid "Consumer Key"
+msgstr "Ключ споживача"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model.fields,field_description:account_invoice_download_ovh.field_ovh_api_credentials__download_config_id
+msgid "Download Config"
+msgstr "Конфігурація завантаження"
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid "Finish"
+msgstr "Завершити"
+
+#. module: account_invoice_download_ovh
+#: model:ir.actions.act_window,name:account_invoice_download_ovh.ovh_api_credentials_action
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.account_invoice_download_config_form
+msgid "Generate OVH API Credentials"
+msgstr "Згенерувати облікові дані API OVH"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model.fields,field_description:account_invoice_download_ovh.field_ovh_api_credentials__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model.fields,field_description:account_invoice_download_ovh.field_ovh_api_credentials__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid "OVH API"
+msgstr "API OVH"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model.fields,field_description:account_invoice_download_ovh.field_account_invoice_download_config__ovh_endpoint
+msgid "OVH Endpoint"
+msgstr "Кінцева точка OVH"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model.fields.selection,name:account_invoice_download_ovh.selection__ovh_api_credentials__state__step1
+msgid "Step1"
+msgstr "Крок 1"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model.fields.selection,name:account_invoice_download_ovh.selection__ovh_api_credentials__state__step2
+msgid "Step2"
+msgstr "Крок 2"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model.fields.selection,name:account_invoice_download_ovh.selection__ovh_api_credentials__state__step3
+msgid "Step3"
+msgstr "Крок 3"
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid "Validate"
+msgstr "Підтвердити"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model.fields,field_description:account_invoice_download_ovh.field_ovh_api_credentials__validation_url
+msgid "Validation URL"
+msgstr "URL перевірки"

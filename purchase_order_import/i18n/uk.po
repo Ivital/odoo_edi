@@ -46,3 +46,61 @@ msgstr "Ціна"
 #: model:ir.ui.menu,name:purchase_order_import.purchase_order_response_import_importer_menu
 msgid "UBL OrderResponse Importer"
 msgstr "Імпортер UBL OrderResponse"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_import_form
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_import_form
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid ""
+"If it is a PDF file, Odoo will try to find an XML file in the attachments of"
+" the PDF file and then use this XML file."
+msgstr ""
+"Якщо це PDF-файл, Odoo спробує знайти XML-файл у вкладеннях PDF і "
+"використати його."
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_import_form
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid ""
+"If it is an XML file, Odoo will parse it if the module that adds support for this XML format is installed.\n"
+"                                For the"
+msgstr ""
+"Якщо це XML-файл, Odoo розбере його, якщо встановлено модуль підтримки цього XML-формату.\n"
+"                                Для"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid "Import document"
+msgstr "Імпортувати документ"
+
+#. module: purchase_order_import
+#: model:ir.model.fields,field_description:purchase_order_import.field_purchase_order_import__write_uid
+#: model:ir.model.fields,field_description:purchase_order_import.field_purchase_order_response_import__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: purchase_order_import
+#: model:ir.model.fields,field_description:purchase_order_import.field_purchase_order_import__write_date
+#: model:ir.model.fields,field_description:purchase_order_import.field_purchase_order_response_import__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: purchase_order_import
+#: model:ir.model.fields,field_description:purchase_order_import.field_purchase_order_import__purchase_id
+msgid "RFQ to Update"
+msgstr "RFQ для оновлення"
+
+#. module: purchase_order_import
+#: model:ir.model.fields,field_description:purchase_order_import.field_purchase_order_import__update_option
+msgid "Update Option"
+msgstr "Параметр оновлення"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_import_form
+msgid "Update RFQ"
+msgstr "Оновити RFQ"

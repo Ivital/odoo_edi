@@ -74,3 +74,28 @@ msgstr "Дійсний"
 #: model:ir.ui.menu,name:base_ebill_payment_contract.ebill_payment_contract_menu
 msgid "eBill Payment Contract"
 msgstr "Договір платежів eBill"
+
+#. module: base_ebill_payment_contract
+#: model:ir.model.fields.selection,name:base_ebill_payment_contract.selection__ebill_payment_contract__state__cancel
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: base_ebill_payment_contract
+#: model:ir.model.fields.selection,name:base_ebill_payment_contract.selection__ebill_payment_contract__state__draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: base_ebill_payment_contract
+#: model:ir.model.fields,field_description:base_ebill_payment_contract.field_ebill_payment_contract__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_ebill_payment_contract
+#: model:ir.model.fields,field_description:base_ebill_payment_contract.field_ebill_payment_contract__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: base_ebill_payment_contract
+#: model:ir.model.fields,field_description:base_ebill_payment_contract.field_ebill_payment_contract__transmit_method_id
+msgid "Service Name"
+msgstr "Назва послуги"

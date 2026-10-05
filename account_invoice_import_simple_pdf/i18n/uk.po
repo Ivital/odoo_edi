@@ -142,3 +142,178 @@ msgstr "Тип"
 #: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_account_invoice_import_simple_pdf_invoice_number__partner_id
 msgid "Vendor"
 msgstr "Постачальник"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__res_partner__simple_pdf_pages__all
+msgid "All Pages"
+msgstr "Усі сторінки"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_date_separator
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_users__simple_pdf_date_separator
+#: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.view_partner_property_form
+msgid "Date Separator"
+msgstr "Роздільник дати"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_decimal_separator
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_users__simple_pdf_decimal_separator
+#: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.view_partner_property_form
+msgid "Decimal Separator"
+msgstr "Десятковий роздільник"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_account_invoice_import_simple_pdf_fields__extract_rule
+msgid "Extract Rule"
+msgstr "Правило вилучення"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_field_ids
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_users__simple_pdf_field_ids
+msgid "Fields for PDF Invoice Import"
+msgstr "Поля для імпорту PDF-рахунку"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__account_invoice_import_simple_pdf_fields__extract_rule__first
+msgid "First"
+msgstr "Перший"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__res_partner__simple_pdf_pages__first
+msgid "First Page Only"
+msgstr "Лише перша сторінка"
+
+#. module: account_invoice_import_simple_pdf
+#: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.view_partner_property_form
+msgid "Invoice Currency"
+msgstr "Валюта рахунка"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_currency_id
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_users__simple_pdf_currency_id
+msgid "Invoice Import Currency"
+msgstr "Валюта імпорту рахунку"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_invoice_number_ids
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_users__simple_pdf_invoice_number_ids
+msgid "Invoice Import Number Format"
+msgstr "Формат номера імпортованого рахунку"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__account_invoice_import_simple_pdf_fields__name__invoice_number
+msgid "Invoice Number"
+msgstr "Номер рахунку"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__account_invoice_import_simple_pdf_fields__extract_rule__last
+msgid "Last"
+msgstr "Останній"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_account_invoice_import_simple_pdf_fields__write_uid
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_account_invoice_import_simple_pdf_invoice_number__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_account_invoice_import_simple_pdf_fields__write_date
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_account_invoice_import_simple_pdf_invoice_number__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "None"
+msgstr "Немає"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_pages
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_users__simple_pdf_pages
+msgid "Page Analysis"
+msgstr "Аналіз сторінки"
+
+#. module: account_invoice_import_simple_pdf
+#: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.view_partner_property_form
+msgid "Run Test"
+msgstr "Запустити тест"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_keyword
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_users__simple_pdf_keyword
+msgid "Simple Pdf Keyword"
+msgstr "Ключове слово Simple PDF"
+
+#. module: account_invoice_import_simple_pdf
+#: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.view_partner_property_form
+msgid "Test File"
+msgstr "Тестовий файл"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_test_file
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_users__simple_pdf_test_file
+msgid "Test PDF Invoice File"
+msgstr "Тестовий PDF-файл рахунку"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_test_filename
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_users__simple_pdf_test_filename
+msgid "Test PDF Invoice Filename"
+msgstr "Назва тестового PDF-файлу рахунку"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_test_raw_text
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_users__simple_pdf_test_raw_text
+msgid "Test Text Extraction"
+msgstr "Перевірити вилучення тексту"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_thousand_separator
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_res_users__simple_pdf_thousand_separator
+#: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.view_partner_property_form
+msgid "Thousand Separator"
+msgstr "Роздільник тисяч"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__account_invoice_import_simple_pdf_fields__name__amount_untaxed
+msgid "Untaxed Amount"
+msgstr "Сума без податків"
+
+#. module: account_invoice_import_simple_pdf
+#: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.view_partner_property_form
+msgid "Vendor Bills Import"
+msgstr "Імпорт рахунків постачальника"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__res_partner__simple_pdf_thousand_separator__apostrophe
+msgid "apostrophe"
+msgstr "апостроф"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__res_partner__simple_pdf_decimal_separator__comma
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__res_partner__simple_pdf_thousand_separator__comma
+msgid "comma"
+msgstr "кома"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__res_partner__simple_pdf_decimal_separator__dot
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__res_partner__simple_pdf_thousand_separator__dot
+msgid "dot"
+msgstr "крапка"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__res_partner__simple_pdf_thousand_separator__none
+msgid "none"
+msgstr "немає"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__res_partner__simple_pdf_thousand_separator__space
+msgid "space"
+msgstr "пробіл"

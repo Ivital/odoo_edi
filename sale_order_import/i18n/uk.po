@@ -74,3 +74,68 @@ msgstr "Стан"
 #: model_terms:ir.ui.view,arch_db:sale_order_import.skip_error_lines_message
 msgid "Values"
 msgstr "Значення"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__commercial_partner_id
+msgid "Commercial Entity"
+msgstr "Комерційна організація"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__confirm_order
+msgid "Confirm Order"
+msgstr "Підтвердити замовлення"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid "Create New"
+msgstr "Створити нове"
+
+#. module: sale_order_import
+#: model:ir.model.fields.selection,name:sale_order_import.selection__sale_order_import__price_source__order
+msgid "Customer Order"
+msgstr "Замовлення клієнта"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__doc_type
+msgid "Document Type"
+msgstr "Тип документа"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.skip_error_lines_message
+msgid "Error Message"
+msgstr "Повідомлення про помилку"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__partner_shipping_id
+msgid "Shipping Address"
+msgstr "Адреса доставки"
+
+#. module: sale_order_import
+#: model:ir.model.fields.selection,name:sale_order_import.selection__sale_order_import__state__update
+msgid "Update"
+msgstr "Оновити"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid "Update Existing"
+msgstr "Оновити наявне"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.skip_error_lines_message
+msgid "line(s)"
+msgstr "рядок(и)"
