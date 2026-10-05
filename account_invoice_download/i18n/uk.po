@@ -244,3 +244,63 @@ msgstr "Тиждень(тижні)"
 #: model:ir.model.fields.selection,name:account_invoice_download.selection__account_invoice_download_config__interval_type__years
 msgid "Year(s)"
 msgstr "Рік(роки)"
+
+#. module: account_invoice_download
+#: model:ir.actions.act_window,name:account_invoice_download.account_invoice_download_credentials_action
+msgid "Download Bills Authentication"
+msgstr "Автентифікація завантаження рахунків"
+
+#. module: account_invoice_download
+#: model_terms:ir.ui.view,arch_db:account_invoice_download.view_partner_property_form
+msgid "Download Config(s)"
+msgstr "Завантажити конфігурації"
+
+#. module: account_invoice_download
+#: model:ir.model.fields,field_description:account_invoice_download.field_account_invoice_download_config__interval_type
+msgid "Download Frequency"
+msgstr "Частота завантаження"
+
+#. module: account_invoice_download
+#: model_terms:ir.ui.view,arch_db:account_invoice_download.account_invoice_download_config_form
+msgid "Download Parameters"
+msgstr "Параметри завантаження"
+
+#. module: account_invoice_download
+#: model:ir.model.fields,field_description:account_invoice_download.field_account_invoice_download_config__download_start_date
+msgid "Download Start Date"
+msgstr "Дата початку завантаження"
+
+#. module: account_invoice_download
+#: model:ir.model.fields,field_description:account_invoice_download.field_account_invoice_download_credentials__download_config_id
+msgid "Invoice Download Config"
+msgstr "Конфігурація завантаження рахунка"
+
+#. module: account_invoice_download
+#: model_terms:ir.ui.view,arch_db:account_invoice_download.account_invoice_download_credentials_form
+msgid "Invoice Download Credentials"
+msgstr "Облікові дані завантаження рахунків"
+
+#. module: account_invoice_download
+#: model:ir.model.fields,field_description:account_invoice_download.field_account_invoice_download_config__last_run
+msgid "Last Download Date"
+msgstr "Дата останнього завантаження"
+
+#. module: account_invoice_download
+#: model:ir.model.fields,field_description:account_invoice_download.field_account_invoice_download_config__next_run
+msgid "Next Download Date"
+msgstr "Дата наступного завантаження"
+
+#. module: account_invoice_download
+#: model:ir.model.fields,field_description:account_invoice_download.field_account_invoice_download_log__invoice_count
+msgid "Number of Invoices Downloaded"
+msgstr "Кількість завантажених рахунків"
+
+#. module: account_invoice_download
+#: model_terms:ir.ui.view,arch_db:account_invoice_download.account_invoice_download_log_search
+msgid "Partner or Download Config"
+msgstr "Контрагент або конфігурація завантаження"
+
+#. module: account_invoice_download
+#: model:ir.actions.server,name:account_invoice_download.account_invoice_download_cron_ir_actions_server
+msgid "Vendor Bills Auto-Download"
+msgstr "Автозавантаження рахунків постачальника"

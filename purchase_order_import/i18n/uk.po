@@ -104,3 +104,183 @@ msgstr "Параметр оновлення"
 #: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_import_form
 msgid "Update RFQ"
 msgstr "Оновити RFQ"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid "Import OrderResponse File from Supplier"
+msgstr "Імпортувати файл OrderResponse від постачальника"
+
+#. module: purchase_order_import
+#: model:ir.actions.act_window,name:purchase_order_import.purchase_order_import_action
+msgid "Import Purchase Quotation"
+msgstr "Імпортувати комерційну пропозицію закупівлі"
+
+#. module: purchase_order_import
+#: model:ir.actions.act_window,name:purchase_order_import.purchase_order_response_import_action
+msgid "Import Purchase Response"
+msgstr "Імпортувати відповідь на закупівлю"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_form
+msgid "Import Quotation File"
+msgstr "Імпортувати файл комерційної пропозиції"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_import_form
+msgid "Import Quotations Files from Suppliers"
+msgstr "Імпортувати файли пропозицій від постачальників"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid "Possible line amendments:"
+msgstr "Можливі зміни рядка:"
+
+#. module: purchase_order_import
+#: model:ir.model.fields.selection,name:purchase_order_import.selection__purchase_order_import__update_option__all
+msgid "Price and Quantity"
+msgstr "Ціна та кількість"
+
+#. module: purchase_order_import
+#: model:ir.model.fields,field_description:purchase_order_import.field_purchase_order__supplier_ack_received_on
+msgid "Supplier Acknowledgement Date"
+msgstr "Дата підтвердження постачальника"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid ""
+"The order line is accepted with change: the picking operation is modified\n"
+"                                (split to stock move). If a backorder qty is provided, a backorder is created.\n"
+"                                Otherwise, the stock move for the missing quantities is cancelled."
+msgstr ""
+"Рядок замовлення прийнято зі змінами: операцію переміщення змінено\n"
+"                                (розділено на складське переміщення). Якщо вказано кількість для дозамовлення, створюється дозамовлення.\n"
+"                                В іншому разі складське переміщення для відсутньої кількості скасовується."
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid "The order line is refused: The picking operation is cancelled"
+msgstr "Рядок замовлення відхилено: операцію переміщення скасовано"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_import_form
+msgid "Then, Odoo will compare the imported quotation and the current RFQ:"
+msgstr ""
+"Після цього Odoo порівняє імпортовану комерційну пропозицію з поточним "
+"запитом комерційної пропозиції:"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid "Then, Odoo will process the related purchase order as follows:"
+msgstr "Потім Odoo обробить пов’язане замовлення закупівлі так:"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid ""
+"Upload below the OrderResponse you received from your supplier.\n"
+"                            When you click on the import button:"
+msgstr ""
+"Завантажте нижче OrderResponse, отриманий від постачальника.\n"
+"                            Після натискання кнопки імпорту:"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_import_form
+msgid ""
+"Upload below the quotation that you received from your supplier for this RFQ as XML or PDF file.\n"
+"                            When you click on the Update RFQ button:"
+msgstr ""
+"Завантажте нижче комерційну пропозицію постачальника для цього RFQ як XML- або PDF-файл.\n"
+"                            Після натискання «Оновити RFQ»:"
+
+#. module: purchase_order_import
+#: model:ir.model.fields,field_description:purchase_order_import.field_purchase_order_response_import__document
+msgid "XML or PDF Order response"
+msgstr "Відповідь на замовлення XML або PDF"
+
+#. module: purchase_order_import
+#: model:ir.model.fields,field_description:purchase_order_import.field_purchase_order_import__quote_file
+msgid "XML or PDF Quotation"
+msgstr "Комерційна пропозиція XML або PDF"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_import_form
+msgid ""
+"for lines that are present both in the imported quotation and in the RFQ,\n"
+"                                Odoo will update the unit prices (and also the quantities, depending on the chosen option)"
+msgstr ""
+"для рядків, наявних і в імпортованій пропозиції, і в запиті комерційної пропозиції,\n"
+"                                Odoo оновить ціни за одиницю (а також кількості залежно від вибраної опції)"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid ""
+"for lines that are present both in the imported quotation and in the RFQ, Odoo will update\n"
+"                                the unit prices (and also the quantities, depending on the chosen option)"
+msgstr ""
+"для рядків, наявних і в імпортованій пропозиції, і в запиті комерційної пропозиції, Odoo оновить\n"
+"                                ціни за одиницю (а також кількості залежно від вибраної опції)"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_import_form
+msgid ""
+"for the lines that are present only in the RFQ,\n"
+"                                Odoo will put a warning message in the chatter (it won't delete them automatically)"
+msgstr ""
+"для рядків, які є лише в RFQ,\n"
+"                                Odoo додасть попередження в чатері (автоматично їх не видалятиме)"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_import_form
+msgid ""
+"for the lines that are present only in the quotation (shipping costs for example),\n"
+"                                Odoo will add them to the RFQ"
+msgstr ""
+"для рядків, які є лише в комерційній пропозиції (наприклад вартість доставки),\n"
+"                                Odoo додасть їх до RFQ"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid ""
+"format (UBL),\n"
+"                                you should install the module <em>order_response_import_ubl</em>."
+msgstr ""
+"формат (UBL),\n"
+"                                слід установити модуль <em>order_response_import_ubl</em>."
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_import_form
+msgid ""
+"format (UBL),\n"
+"                                you should install the module <em>purchase_order_import_ubl</em>."
+msgstr ""
+"формат (UBL),\n"
+"                                слід установити модуль <em>purchase_order_import_ubl</em>."
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid "if the status code is Accepted: confirm the PO and create the picking"
+msgstr ""
+"якщо код статусу «Прийнято»: підтвердити замовлення на закупівлю та створити"
+" переміщення"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid ""
+"if the status code is Conditionally accepted: confirm the PO and create the picking and\n"
+"                                update the picking operations according to the amendments specified into the document"
+msgstr ""
+"якщо код стану — «Умовно прийнято»: підтвердити замовлення на закупівлю, створити переміщення та\n"
+"                                оновити операції переміщення відповідно до змін, зазначених у документі"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid "if the status code is Rejected: cancel the PO"
+msgstr "якщо код стану Rejected: скасувати PO"
+
+#. module: purchase_order_import
+#: model_terms:ir.ui.view,arch_db:purchase_order_import.purchase_order_response_import_form
+msgid ""
+"if the status code is acknowledgement: update the acknowledge datetime on "
+"the PO"
+msgstr ""
+"якщо код статусу «підтвердження отримання»: оновити дату й час підтвердження"
+" в замовленні на закупівлю"

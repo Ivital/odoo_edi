@@ -63,3 +63,50 @@ msgstr "Повторно надіслати eBill"
 #: model_terms:ir.ui.view,arch_db:account_invoice_export.view_move_form
 msgid "Send eBill"
 msgstr "Надіслати eBill"
+
+#. module: account_invoice_export
+#: model:ir.model.fields,help:account_invoice_export.field_account_bank_statement_line__send_through_http
+#: model:ir.model.fields,help:account_invoice_export.field_account_move__send_through_http
+#: model:ir.model.fields,help:account_invoice_export.field_transmit_method__send_through_http
+msgid "Adds a Send eBill button on the invoice"
+msgstr "Додає кнопку «Надіслати eBill» до рахунку"
+
+#. module: account_invoice_export
+#: model_terms:ir.ui.view,arch_db:account_invoice_export.transmit_method_form
+msgid ""
+"By default the PDF of the invoice will be sent using the connection "
+"parameters below (basic authenticaiton)."
+msgstr ""
+"За замовчуванням PDF рахунку надсилатиметься з параметрами підключення нижче"
+" (базова автентифікація)."
+
+#. module: account_invoice_export
+#: model:ir.model.fields,field_description:account_invoice_export.field_transmit_method__export_connection_timeout
+msgid "Connection timeout"
+msgstr "Тайм-аут з’єднання"
+
+#. module: account_invoice_export
+#: model_terms:ir.ui.view,arch_db:account_invoice_export.view_move_form
+msgid "Ebill has already been sent. Are you sure you want to send it again ?"
+msgstr ""
+"Електронний рахунок уже надіслано. Ви впевнені, що хочете надіслати його "
+"повторно?"
+
+#. module: account_invoice_export
+#: model_terms:ir.ui.view,arch_db:account_invoice_export.exception_sending_invoice
+msgid "Error sending invoice to"
+msgstr "Помилка надсилання рахунка до"
+
+#. module: account_invoice_export
+#: model_terms:ir.ui.view,arch_db:account_invoice_export.transmit_method_form
+msgid ""
+"Handling specific connection needs and/or exporting other files can be done "
+"through code."
+msgstr ""
+"Специфічні потреби підключення та/або експорт інших файлів можна реалізувати"
+" через код."
+
+#. module: account_invoice_export
+#: model_terms:ir.ui.view,arch_db:account_invoice_export.exception_sending_invoice
+msgid "The failed job has the uuid"
+msgstr "Невдале завдання має UUID"

@@ -139,3 +139,92 @@ msgstr "Оновити наявне"
 #: model_terms:ir.ui.view,arch_db:sale_order_import.skip_error_lines_message
 msgid "line(s)"
 msgstr "рядок(и)"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__price_source
+msgid "Apply Prices From"
+msgstr "Застосувати ціни з"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__create_missing_invoice_partner
+msgid "Create Missing Invoice Partner"
+msgstr "Створити відсутнього контрагента рахунка"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__create_missing_shipping_partner
+msgid "Create Missing Shipping Partner"
+msgstr "Створити відсутнього контрагента доставки"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.skip_error_lines_message
+msgid "Errors lines on Import:"
+msgstr "Рядки з помилками імпорту:"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid ""
+"If it is a PDF file, Odoo will try to find an XML file in the attachments of"
+" the PDF file and then use this XML file to create the quotation."
+msgstr ""
+"Якщо це PDF-файл, Odoo спробує знайти XML-файл у вкладеннях PDF і "
+"використати його для створення комерційної пропозиції."
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid ""
+"If it is an XML file, Odoo will parse it if the module that adds support for"
+" this XML format is installed. For the"
+msgstr ""
+"Якщо це XML-файл, Odoo розбере його, якщо встановлено модуль підтримки цього"
+" XML-формату. Для"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid "Import Sale Orders"
+msgstr "Імпортувати замовлення на продаж"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__sale_id
+msgid "Quotation to Update"
+msgstr "Комерційна пропозиція для оновлення"
+
+#. module: sale_order_import
+#: model:ir.model.fields.selection,name:sale_order_import.selection__sale_order_import__doc_type__rfq
+msgid "Request For Quotation"
+msgstr "Запит комерційної пропозиції"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__order_file
+msgid "Request for Quotation or Order"
+msgstr "Запит комерційної пропозиції або замовлення"
+
+#. module: sale_order_import
+#: model:ir.model.fields,field_description:sale_order_import.field_sale_order_import__skip_error_lines
+msgid "Skip Error Lines"
+msgstr "Пропускати рядки з помилками"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid ""
+"Some quotations have been found for this customer ; one of them may "
+"correspond to the order or RFQ that you are importing. You can either select"
+" an existing quotation to update or create a new one."
+msgstr ""
+"Для цього клієнта знайдено кілька комерційних пропозицій; одна з них може "
+"відповідати замовленню або запиту комерційної пропозиції, який ви "
+"імпортуєте. Можна вибрати наявну пропозицію для оновлення або створити нову."
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid ""
+"Upload below the customer order or request for quotation as XML or PDF file."
+" When you click on the Import button:"
+msgstr ""
+"Завантажте нижче замовлення клієнта або запит комерційної пропозиції як XML-"
+" або PDF-файл. Після натискання «Імпорт»:"
+
+#. module: sale_order_import
+#: model_terms:ir.ui.view,arch_db:sale_order_import.sale_order_import_form
+msgid ""
+"format (UBL), you should install the module <em>sale_order_import_ubl</em>."
+msgstr "формат (UBL), слід установити модуль <em>sale_order_import_ubl</em>."

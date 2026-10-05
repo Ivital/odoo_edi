@@ -475,3 +475,139 @@ msgstr "Змінний"
 #: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_line_view_form
+msgid "%A - Full day of the week."
+msgstr "%A - Повний день тижня."
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_line_view_form
+msgid "%B - Full month name.\""
+msgstr "%B - Назва повного місяця.\""
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_line_view_form
+msgid "%M - Minute [00,59]."
+msgstr "%M - Хвилина [00,59]."
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_line_view_form
+msgid "%S - Seconds [00,61]."
+msgstr "%S - Секунди [00,61]."
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_line_view_form
+msgid "%a - Abbreviated day of the week."
+msgstr "%a - Абревіатура дня тижня."
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_line_view_form
+msgid "%b - Abbreviated month name."
+msgstr "%b - Скорочена назва місяця."
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_line_view_form
+msgid "%d - Day of the month [01,31]."
+msgstr "%d - День місяця [01,31]."
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_line_view_form
+msgid "%p - Equivalent of either AM or PM."
+msgstr "%p - Еквівалент AM або PM."
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_line_view_form
+msgid "9. %w              ==&gt; 5 ( Friday is the 6th day)"
+msgstr "9. %w              ==&gt; 5 ( П'ятниця це шостий день)"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__auto_detect_pattern
+msgid "Auto detect pattern"
+msgstr "Автовизначення шаблону"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__fixed_value_datetime
+msgid "Fixed Value Datetime"
+msgstr "Фіксоване значення дати й часу"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__fixed_value_float
+msgid "Fixed Value Float"
+msgstr "Фіксоване дробове значення"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__fixed_value_integer
+msgid "Fixed Value Integer"
+msgstr "Фіксоване ціле значення"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__fixed_value_selection
+msgid "Fixed Value Selection"
+msgstr "Фіксоване значення вибору"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,help:base_import_pdf_by_template.field_base_import_pdf_template_line__field_relation
+#: model:ir.model.fields,help:base_import_pdf_by_template.field_base_import_pdf_template_line__search_field_relation
+msgid "For relationship fields, the technical name of the target model"
+msgstr "Для полів взаємин - технічне ім'я цільової моделі"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,help:base_import_pdf_by_template.field_base_import_pdf_template__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,help:base_import_pdf_by_template.field_base_import_pdf_template__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_line_view_form
+msgid "Legends for supported Date and Time Formats"
+msgstr "Легенди для підтримуваних форматів дати та часу"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__log_distinct_value
+msgid "Log distint value?"
+msgstr "Логувати відмінне значення?"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,help:base_import_pdf_by_template.field_base_import_pdf_template__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,help:base_import_pdf_by_template.field_base_import_pdf_template__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__search_field_name
+msgid "Search field name"
+msgstr "Назва поля пошуку"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__search_field_relation
+msgid "Search field relation"
+msgstr "Зв’язок поля пошуку"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__search_field_ttype
+msgid "Search field type"
+msgstr "Тип поля пошуку"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__search_subfield_name
+msgid "Search subfield name"
+msgstr "Назва вкладеного поля пошуку"
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.view_wizard_base_import_pdf_preview_form
+msgid "Technical information"
+msgstr "Технічна інформація"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,help:base_import_pdf_by_template.field_base_import_pdf_template__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

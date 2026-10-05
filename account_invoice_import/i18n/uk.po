@@ -272,3 +272,144 @@ msgstr "Імпорт рахунків постачальника"
 #: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.res_config_settings_view_form
+msgid "Expense account used for adjustment invoice line"
+msgstr "Рахунок витрат для рядка коригувального рахунка"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_res_partner__invoice_import_journal_id
+#: model:ir.model.fields,help:account_invoice_import.field_res_users__invoice_import_journal_id
+msgid "If empty, Odoo will use the first purchase journal."
+msgstr "Якщо порожньо, Odoo використовуватиме перший журнал закупівель."
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.res_config_settings_view_form
+msgid ""
+"If enabled, Odoo will auto-create the bank account of suppliers upon vendor "
+"bill import."
+msgstr ""
+"Якщо ввімкнено, Odoo автоматично створюватиме банківський рахунок "
+"постачальників під час імпорту рахунку постачальника."
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid ""
+"If the format you need is not listed above, you should install an "
+"additionnal Odoo module that adds support for that format (e.g. "
+"<em>account_invoice_import_facturx</em>, "
+"<em>account_invoice_import_ubl</em>, "
+"<em>account_invoice_import_simple_pdf</em>, etc)."
+msgstr ""
+"Якщо потрібного формату немає у списку вище, слід установити додатковий "
+"модуль Odoo, який додає підтримку цього формату (наприклад, "
+"<em>account_invoice_import_facturx</em>, "
+"<em>account_invoice_import_ubl</em>, "
+"<em>account_invoice_import_simple_pdf</em> тощо)."
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid "Import Supplier Invoice or Refund"
+msgstr "Імпортувати рахунок постачальника або повернення"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.res_config_settings_view_form
+msgid "Income account used for adjustment invoice line"
+msgstr "Рахунок доходів для рядка коригувального рахунка"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import__invoice_attachment_ids
+msgid "PDF or XML Invoices to Import"
+msgstr "Рахунки PDF або XML для імпорту"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,field_description:account_invoice_import.field_account_invoice_import_partner_create__partner_vat
+msgid "Partner VAT Number"
+msgstr "ПДВ-номер партнера"
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_res_partner__invoice_import_tax_ids
+#: model:ir.model.fields,help:account_invoice_import.field_res_users__invoice_import_tax_ids
+msgid ""
+"Taxes configured here will go through the mapping of the fiscal position."
+msgstr ""
+"Налаштовані тут податки проходитимуть через зіставлення податкової позиції."
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_res_partner__invoice_import_account_id
+#: model:ir.model.fields,help:account_invoice_import.field_res_users__invoice_import_account_id
+msgid ""
+"The account configured here will be updated by the mapping of the fiscal "
+"position."
+msgstr ""
+"Налаштований тут рахунок буде оновлено відповідно до зіставлення податкової "
+"позиції."
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_res_company__invoice_import_email
+#: model:ir.model.fields,help:account_invoice_import.field_res_config_settings__invoice_import_email
+msgid ""
+"This field is used in multi-company setups to import the invoices received "
+"by the mail gateway in the appropriate company"
+msgstr ""
+"Це поле використовується в багатокомпанійних конфігураціях для імпорту "
+"рахунків, отриманих через поштовий шлюз, до відповідної компанії"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.res_config_settings_view_form
+msgid ""
+"This field is used in multi-company setups to import the invoices received "
+"by the mail gateway in the appropriate company."
+msgstr ""
+"Це поле використовується в багатокомпанійних конфігураціях для імпорту "
+"рахунків, отриманих поштовим шлюзом, у відповідну компанію."
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import_partner_create__create_or_update__update
+msgid "This partner already exists in Odoo"
+msgstr "Цей контрагент уже існує в Odoo"
+
+#. module: account_invoice_import
+#: model:ir.model.fields.selection,name:account_invoice_import.selection__account_invoice_import_partner_create__create_or_update__create
+msgid "This partner doesn't already exists in Odoo"
+msgstr "Цей контрагент ще не існує в Odoo"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.account_invoice_import_form
+msgid ""
+"Upload below the vendor bills/refunds as PDF or XML file: Odoo will create a"
+" draft vendor bills refund for each file."
+msgstr ""
+"Завантажте нижче рахунки/повернення постачальника як PDF- або XML-файл: Odoo"
+" створить чернетку повернення рахунку постачальника для кожного файлу."
+
+#. module: account_invoice_import
+#: model:ir.model.fields,help:account_invoice_import.field_account_invoice_import__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: account_invoice_import
+#: model_terms:ir.ui.view,arch_db:account_invoice_import.view_partner_property_form
+msgid "on imported vendor bill"
+msgstr "у імпортованому рахунку постачальника"

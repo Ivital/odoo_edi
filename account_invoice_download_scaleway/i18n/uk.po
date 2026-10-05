@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_invoice_download_scaleway.field_account_invoice_download_config__backend
 msgid "Backend"
 msgstr "Бекенд"
+
+#. module: account_invoice_download_scaleway
+#: model:ir.model.fields,field_description:account_invoice_download_scaleway.field_account_invoice_download_config__scaleway_secret_key
+msgid "Scaleway Secret Key"
+msgstr "Секретний ключ Scaleway"

@@ -118,3 +118,122 @@ msgstr "Підтвердити"
 #: model:ir.model.fields,field_description:account_invoice_download_ovh.field_ovh_api_credentials__validation_url
 msgid "Validation URL"
 msgstr "URL перевірки"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model.fields,field_description:account_invoice_download_ovh.field_ovh_api_credentials__application_secret
+msgid "Application Secret"
+msgstr "Секрет застосунку"
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid ""
+"Connect to the <b>Application URL</b> below. A web page will prompt you to "
+"enter:"
+msgstr ""
+"Перейдіть за <b>URL застосунку</b> нижче. Вебсторінка запропонує вам ввести:"
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid ""
+"Connect to the <b>Validation URL</b> below. A web page will prompt you to "
+"enter:"
+msgstr ""
+"Перейдіть за <b>URL перевірки</b> нижче. Вебсторінка запропонує вам ввести:"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model.fields,field_description:account_invoice_download_ovh.field_account_invoice_download_config__ovh_application_key
+msgid "OVH Application Key"
+msgstr "Ключ застосунку OVH"
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid "Select your OVH API endpoint below."
+msgstr "Виберіть нижче кінцеву точку API OVH."
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid ""
+"Then click on the button <i>Create keys</i> and it will display a new Web "
+"page with the <b>Application Key</b> and the <b>Application Secret</b>. "
+"Copy-paste the 2 fields below."
+msgstr ""
+"Потім натисніть <i>Створити ключі</i>: відкриється нова вебсторінка з "
+"<b>Ключем застосунку</b> і <b>Секретом застосунку</b>. Скопіюйте два поля "
+"нижче."
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid ""
+"Then click on the button <i>Log in</i>. If it worked, check the box "
+"<i>Validation URL Done</i> below and click on the <i>Finish</i> button. Odoo"
+" will update the invoice download configuration with all the parameters that"
+" are needed to connect to the"
+msgstr ""
+"Потім натисніть кнопку <i>Увійти</i>. Якщо все спрацювало, установіть "
+"прапорець <i>URL перевірки готова</i> нижче та натисніть <i>Завершити</i>. "
+"Odoo оновить конфігурацію завантаження рахунків усіма параметрами, "
+"необхідними для підключення до"
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid ""
+"This wizard will assist you in the generation of the 3 parameters that you "
+"need to use the"
+msgstr ""
+"Цей майстер допоможе згенерувати 3 параметри, потрібні для використання"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model.fields,field_description:account_invoice_download_ovh.field_ovh_api_credentials__validation_url_ok
+msgid "Validation URL Done"
+msgstr "URL перевірки завершено"
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid ""
+"an <i>Application description</i> (you can enter <i>Odoo Invoice auto-"
+"download</i> for example)."
+msgstr ""
+"поле <i>Опис застосунку</i> (наприклад, можна ввести <i>Odoo Invoice auto-"
+"download</i>)."
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid ""
+"an <i>Application name</i> (you can enter <i>OdooAccounting</i> for "
+"example),"
+msgstr ""
+"назву <i>застосунку</i> (наприклад, можна ввести <i>OdooAccounting</i>),"
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid "the <b>Application Key</b>,"
+msgstr "<b>Ключ застосунку</b>,"
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid "the <b>Application Secret</b>,"
+msgstr "<b>Секрет застосунку</b>,"
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid "the <b>Consumer Key</b>."
+msgstr "<b>Ключ споживача</b>."
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid ""
+"the <i>Validity</i>: if this access is for production use, select "
+"<i>Unlimited</i>."
+msgstr ""
+"поле <i>Строк дії</i>: якщо цей доступ використовується у виробничому "
+"середовищі, виберіть <i>Необмежений</i>."
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid "the corresponding password,"
+msgstr "відповідний пароль,"
+
+#. module: account_invoice_download_ovh
+#: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
+msgid "your OVH account ID (i.e. login) or email address,"
+msgstr "ID вашого облікового запису OVH (тобто логін) або email,"

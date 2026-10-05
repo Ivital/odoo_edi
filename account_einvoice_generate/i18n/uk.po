@@ -23,3 +23,13 @@ msgstr "Немає"
 #: model:ir.model.fields,field_description:account_einvoice_generate.field_res_config_settings__xml_format_in_pdf_invoice
 msgid "XML Format embedded in PDF invoice"
 msgstr "XML-формат, вбудований у PDF-рахунок"
+
+#. module: account_einvoice_generate
+#: model_terms:ir.ui.view,arch_db:account_einvoice_generate.view_account_config_settings
+msgid "Electronic Invoices"
+msgstr "Електронні рахунки"
+
+#. module: account_einvoice_generate
+#: model_terms:ir.ui.view,arch_db:account_einvoice_generate.view_account_config_settings
+msgid "XML format attached to your PDF customer invoices"
+msgstr "XML-формат, прикріплений до PDF-рахунків клієнтів"

@@ -317,3 +317,146 @@ msgstr "немає"
 #: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__res_partner__simple_pdf_thousand_separator__space
 msgid "space"
 msgstr "пробіл"
+
+#. module: account_invoice_import_simple_pdf
+#: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.account_invoice_import_form
+msgid ""
+"<strong>regular PDF</strong> file without any embedded XML file via a pre-"
+"configuration in Odoo."
+msgstr ""
+"<strong>звичайний PDF</strong> без вбудованого XML-файлу через попереднє "
+"налаштування в Odoo."
+
+#. module: account_invoice_import_simple_pdf
+#: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.view_partner_property_form
+msgid "Cleanup Test Data"
+msgstr "Очистити тестові дані"
+
+#. module: account_invoice_import_simple_pdf
+#: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.view_partner_property_form
+msgid "Field Extraction Rules"
+msgstr "Правила вилучення полів"
+
+#. module: account_invoice_import_simple_pdf
+#: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.view_partner_property_form
+msgid "Generate Default Extract Rules"
+msgstr "Створити правила вилучення за замовчуванням"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,help:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_keyword
+#: model:ir.model.fields,help:account_invoice_import_simple_pdf.field_res_users__simple_pdf_keyword
+msgid ""
+"If empty, Odoo will use the VAT number to identify the partner. To match on "
+"several keywords, separate them with '|' (pipe)."
+msgstr ""
+"Якщо порожньо, Odoo використовуватиме номер ПДВ для ідентифікації "
+"контрагента. Щоб зіставляти за кількома ключовими словами, розділяйте їх "
+"символом '|' (pipe)."
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,help:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_currency_id
+#: model:ir.model.fields,help:account_invoice_import_simple_pdf.field_res_users__simple_pdf_currency_id
+msgid "If empty, Odoo will use the company currency."
+msgstr "Якщо порожньо, Odoo використовуватиме валюту компанії."
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,help:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_decimal_separator
+#: model:ir.model.fields,help:account_invoice_import_simple_pdf.field_res_users__simple_pdf_decimal_separator
+msgid ""
+"If empty, Odoo will use the decimal separator configured on the language of "
+"the partner."
+msgstr ""
+"Якщо порожньо, Odoo використовуватиме десятковий роздільник, налаштований "
+"для мови контрагента."
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,help:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_thousand_separator
+#: model:ir.model.fields,help:account_invoice_import_simple_pdf.field_res_users__simple_pdf_thousand_separator
+msgid ""
+"If empty, Odoo will use the thousand separator configured on the language of"
+" the partner."
+msgstr ""
+"Якщо порожньо, Odoo використовуватиме роздільник тисяч, налаштований для "
+"мови контрагента."
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,help:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_date_format
+#: model:ir.model.fields,help:account_invoice_import_simple_pdf.field_res_users__simple_pdf_date_format
+msgid ""
+"If the date format uses 'Month', check that the language is properly "
+"configured on the partner. 'Month' works both in full and short version "
+"('January' and 'Jan.')."
+msgstr ""
+"Якщо формат дати використовує 'Month', перевірте, що мову контрагента "
+"налаштовано правильно. 'Month' працює як у повній, так і в скороченій формі "
+"('January' і 'Jan.')."
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,help:account_invoice_import_simple_pdf.field_res_partner__simple_pdf_date_separator
+#: model:ir.model.fields,help:account_invoice_import_simple_pdf.field_res_users__simple_pdf_date_separator
+msgid ""
+"If the date looks like 'Sep. 4, 2021', use 'space' as date separator (Odoo "
+"will ignore the dot and comma)."
+msgstr ""
+"Якщо дата має вигляд «Sep. 4, 2021», використовуйте «пробіл» як роздільник "
+"дати (Odoo проігнорує крапку й кому)."
+
+#. module: account_invoice_import_simple_pdf
+#: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.view_partner_property_form
+msgid "Invoice Number Format"
+msgstr "Формат номера рахунку"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_account_invoice_import_simple_pdf_invoice_number__occurrence_max
+msgid "Maximum Occurence"
+msgstr "Максимальна кількість повторень"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_account_invoice_import_simple_pdf_invoice_number__occurrence_min
+msgid "Minimum Occurence"
+msgstr "Мінімальна кількість повторень"
+
+#. module: account_invoice_import_simple_pdf
+#: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.view_partner_property_form
+msgid "Simple PDF Configuration (useless for structured invoices)"
+msgstr "Проста конфігурація PDF (непотрібна для структурованих рахунків)"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_account_invoice_import_simple_pdf_fields__date_format
+msgid "Specific Date Format"
+msgstr "Спеціальний формат дати"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_account_invoice_import_simple_pdf_fields__date_separator
+msgid "Specific Date Separator"
+msgstr "Спеціальний роздільник дат"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__account_invoice_import_simple_pdf_fields__extract_rule__position_end
+msgid "Specific Position from End"
+msgstr "Спеціальна позиція від кінця"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__account_invoice_import_simple_pdf_fields__extract_rule__position_max
+msgid "Specific Position from Max"
+msgstr "Спеціальна позиція від максимуму"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__account_invoice_import_simple_pdf_fields__extract_rule__position_min
+msgid "Specific Position from Min"
+msgstr "Спеціальна позиція від мінімуму"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields.selection,name:account_invoice_import_simple_pdf.selection__account_invoice_import_simple_pdf_fields__extract_rule__position_start
+msgid "Specific Position from Start"
+msgstr "Спеціальна позиція від початку"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,field_description:account_invoice_import_simple_pdf.field_account_invoice_import_simple_pdf_fields__regexp
+msgid "Specific Regular Expression"
+msgstr "Спеціальний регулярний вираз"
+
+#. module: account_invoice_import_simple_pdf
+#: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.view_partner_property_form
+msgid "Text Extraction from PDF"
+msgstr "Вилучення тексту з PDF"
