@@ -1,0 +1,284 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_view_form
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_view_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_mixin__attachment_id
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_preview__attachment_id
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload_line__attachment_id
+msgid "Attachment"
+msgstr "Вкладення"
+
+#. module: base_import_pdf_by_template
+#: model:ir.ui.menu,name:base_import_pdf_by_template.menu_base_import_pdf_by_template_root
+msgid "Base Import Pdf By Template"
+msgstr "Базовий імпорт PDF за шаблоном"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__child_field_id
+msgid "Child Field"
+msgstr "Дочірнє поле"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__child_model
+msgid "Child Model"
+msgstr "Дочірня модель"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__create_uid
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__create_uid
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line_mapped__create_uid
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_preview__create_uid
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload__create_uid
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload_line__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__create_date
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__create_date
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line_mapped__create_date
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_preview__create_date
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload__create_date
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload_line__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload__data
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload_line__data
+msgid "Data"
+msgstr "Дані"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__display_name
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__display_name
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line_mapped__display_name
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_preview__display_name
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload__display_name
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload_line__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_line_view_form
+msgid "Examples"
+msgstr "Приклади"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__field_id
+msgid "Field"
+msgstr "Поле"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__child_field_name
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__field_name
+msgid "Field Name"
+msgstr "Назва поля"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__field_ttype
+msgid "Field Type"
+msgstr "Тип поля"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_preview__data_file
+msgid "File"
+msgstr "Файл"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_preview__file_name
+msgid "File Name"
+msgstr "Ім’я файлу"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload__attachment_ids
+msgid "Files"
+msgstr "Файли"
+
+#. module: base_import_pdf_by_template
+#. odoo-python
+#: code:addons/base_import_pdf_by_template/models/base_import_pdf_template.py:0
+msgid "Fixed"
+msgstr "Фіксований"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__fixed_value
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_line_view_form
+msgid "Fixed value"
+msgstr "Фіксоване значення"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: base_import_pdf_by_template
+#. odoo-python
+#: code:addons/base_import_pdf_by_template/models/base_import_pdf_template.py:0
+msgid "Header"
+msgstr "Заголовок"
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.view_wizard_base_import_pdf_upload_form
+msgid "Import"
+msgstr "Імпорт"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line_mapped__json_value
+msgid "Json Value"
+msgstr "Значення JSON"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__line_ids
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload__line_ids
+msgid "Line"
+msgstr "Рядок"
+
+#. module: base_import_pdf_by_template
+#. odoo-python
+#: code:addons/base_import_pdf_by_template/models/base_import_pdf_template.py:0
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_view_form
+msgid "Lines"
+msgstr "Рядки"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload_line__log_text
+msgid "Log Text"
+msgstr "Текст журналу"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__model_id
+msgid "Main Model"
+msgstr "Основна модель"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__mapped_ids
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_line_view_form
+msgid "Mapped"
+msgstr "Зіставлено"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__model
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__model
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload__model
+msgid "Model"
+msgstr "Модель"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line_mapped__origin
+msgid "Origin"
+msgstr "Походження"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line_mapped__parent_id
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload_line__parent_id
+msgid "Parent"
+msgstr "Батьківський"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__pattern
+msgid "Pattern"
+msgstr "Шаблон"
+
+#. module: base_import_pdf_by_template
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_view_form
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_preview__data
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.view_wizard_base_import_pdf_preview_form
+msgid "RAW data"
+msgstr "Сирі дані"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload__record_ref
+msgid "Record Ref"
+msgstr "Посилання на запис"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_preview__table_info
+msgid "Table info"
+msgstr "Інформація про таблицю"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__template_id
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_preview__template_id
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_upload_line__template_id
+msgid "Template"
+msgstr "Шаблон"
+
+#. module: base_import_pdf_by_template
+#: model:ir.actions.act_window,name:base_import_pdf_by_template.base_import_pdf_template_action
+#: model:ir.ui.menu,name:base_import_pdf_by_template.menu_base_import_pdf_template
+msgid "Templates"
+msgstr "Шаблони"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_wizard_base_import_pdf_preview__total_pages
+msgid "Total pages"
+msgstr "Усього сторінок"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line_mapped__value
+#: model_terms:ir.ui.view,arch_db:base_import_pdf_by_template.base_import_pdf_template_line_view_form
+msgid "Value"
+msgstr "Значення"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,field_description:base_import_pdf_by_template.field_base_import_pdf_template_line__value_type
+msgid "Value type"
+msgstr "Тип значення"
