@@ -22,3 +22,8 @@ msgstr "(Universal Business Language, також відома як"
 #: model_terms:ir.ui.view,arch_db:account_invoice_import_ubl.account_invoice_import_form
 msgid "), either as XML file or as PDF file with an UBL XML attachment."
 msgstr "), як XML-файл або PDF-файл із вкладенням UBL XML."
+
+#. module: account_invoice_import_ubl
+#: model:ir.model,name:account_invoice_import_ubl.model_account_invoice_import
+msgid "Wizard to import supplier invoices/refunds"
+msgstr "Майстер імпорту рахунків/повернень постачальника"

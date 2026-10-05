@@ -237,3 +237,8 @@ msgstr "відповідний пароль,"
 #: model_terms:ir.ui.view,arch_db:account_invoice_download_ovh.ovh_api_credentials_form
 msgid "your OVH account ID (i.e. login) or email address,"
 msgstr "ID вашого облікового запису OVH (тобто логін) або email,"
+
+#. module: account_invoice_download_ovh
+#: model:ir.model,name:account_invoice_download_ovh.model_ovh_api_credentials
+msgid "Generate OVH API credentials"
+msgstr "Створити облікові дані API OVH"

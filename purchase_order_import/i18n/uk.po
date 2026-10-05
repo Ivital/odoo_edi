@@ -284,3 +284,44 @@ msgid ""
 msgstr ""
 "якщо код статусу «підтвердження отримання»: оновити дату й час підтвердження"
 " в замовленні на закупівлю"
+
+#. module: purchase_order_import
+#: model:ir.model.fields,help:purchase_order_import.field_purchase_order__supplier_ack_received_on
+msgid ""
+"Date and time of the acknowledgement by the supplier. This field is filled "
+"by Odoo when processing a OrderResponse document."
+msgstr ""
+"Дата й час підтвердження постачальником. Поле заповнюється Odoo під час "
+"обробки документа OrderResponse."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid "There are no embedded XML file in this PDF file."
+msgstr "У цьому PDF-файлі немає вбудованого XML-файлу."
+
+#. module: purchase_order_import
+#. odoo-python
+#: code:addons/purchase_order_import/wizard/purchase_order_import.py:0
+#: code:addons/purchase_order_import/wizard/purchase_order_response_import.py:0
+msgid "This XML file is not XML-compliant"
+msgstr "Цей XML-файл не відповідає вимогам XML"
+
+#. module: purchase_order_import
+#: model:ir.model.fields,help:purchase_order_import.field_purchase_order_import__quote_file
+msgid ""
+"Upload a quotation file that you received from your supplier. Supported "
+"formats: XML and PDF (PDF with an embeded XML file)."
+msgstr ""
+"Завантажте файл комерційної пропозиції, отриманий від постачальника. "
+"Підтримувані формати: XML і PDF (PDF із вбудованим XML-файлом)."
+
+#. module: purchase_order_import
+#: model:ir.model.fields,help:purchase_order_import.field_purchase_order_response_import__document
+msgid ""
+"Upload an Order response file that you received from your supplier. "
+"Supported formats: XML and PDF (PDF with an embeded XML file)."
+msgstr ""
+"Завантажте файл відповіді на замовлення, отриманий від постачальника. "
+"Підтримувані формати: XML і PDF (PDF із вбудованим XML-файлом)."

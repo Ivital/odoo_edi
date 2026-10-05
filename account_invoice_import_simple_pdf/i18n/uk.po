@@ -460,3 +460,61 @@ msgstr "Спеціальний регулярний вираз"
 #: model_terms:ir.ui.view,arch_db:account_invoice_import_simple_pdf.view_partner_property_form
 msgid "Text Extraction from PDF"
 msgstr "Вилучення тексту з PDF"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model,name:account_invoice_import_simple_pdf.model_account_invoice_import_simple_pdf_fields
+msgid "Fields for Simple PDF invoice import"
+msgstr "Поля для простого імпорту PDF-рахунка"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model,name:account_invoice_import_simple_pdf.model_account_invoice_import_simple_pdf_invoice_number
+msgid "Invoice number format for Simple PDF invoice import"
+msgstr "Формат номера рахунка для простого імпорту PDF"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.fields,help:account_invoice_import_simple_pdf.field_account_invoice_import_simple_pdf_fields__date_format
+#: model:ir.model.fields,help:account_invoice_import_simple_pdf.field_account_invoice_import_simple_pdf_fields__date_separator
+msgid ""
+"Leave empty if the format used is the same as the format defined in the "
+"global section."
+msgstr ""
+"Залиште порожнім, якщо використовується той самий формат, що визначений у "
+"глобальному розділі."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "Result:"
+msgstr "Результат:"
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.constraint,message:account_invoice_import_simple_pdf.constraint_account_invoice_import_simple_pdf_invoice_number_occurrence_max_positive
+msgid "The maximum occurence must be strictly positive."
+msgstr "Максимальна кількість появ має бути строго додатною."
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.constraint,message:account_invoice_import_simple_pdf.constraint_account_invoice_import_simple_pdf_invoice_number_occurrence_min_positive
+msgid "The minimum occurence must be strictly positive."
+msgstr "Мінімальна кількість появ має бути строго додатною."
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.constraint,message:account_invoice_import_simple_pdf.constraint_account_invoice_import_simple_pdf_fields_position_specific_positive
+msgid "The position must be strictly positive."
+msgstr "Позиція має бути строго додатною."
+
+#. module: account_invoice_import_simple_pdf
+#: model:ir.model.constraint,message:account_invoice_import_simple_pdf.constraint_account_invoice_import_simple_pdf_fields_partner_field_unique
+msgid "There is already an entry for that field."
+msgstr "Для цього поля вже існує запис."
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "dash"
+msgstr "тире"
+
+#. module: account_invoice_import_simple_pdf
+#. odoo-python
+#: code:addons/account_invoice_import_simple_pdf/models/res_partner.py:0
+msgid "unknown"
+msgstr "невідомо"

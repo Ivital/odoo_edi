@@ -22,3 +22,8 @@ msgstr "Бекенд"
 #: model:ir.model.fields,field_description:account_invoice_download_scaleway.field_account_invoice_download_config__scaleway_secret_key
 msgid "Scaleway Secret Key"
 msgstr "Секретний ключ Scaleway"
+
+#. module: account_invoice_download_scaleway
+#: model:ir.model,name:account_invoice_download_scaleway.model_account_invoice_download_config
+msgid "Configuration for the download of Supplier Invoices"
+msgstr "Конфігурація завантаження рахунків постачальників"

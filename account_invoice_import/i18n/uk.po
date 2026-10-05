@@ -413,3 +413,13 @@ msgstr "Історія комунікації через вебсайт"
 #: model_terms:ir.ui.view,arch_db:account_invoice_import.view_partner_property_form
 msgid "on imported vendor bill"
 msgstr "у імпортованому рахунку постачальника"
+
+#. module: account_invoice_import
+#: model:ir.model.constraint,message:account_invoice_import.constraint_res_company_invoice_import_email_uniq
+msgid "This invoice import email already exists!"
+msgstr "Цей email імпорту рахунків уже існує!"
+
+#. module: account_invoice_import
+#: model:ir.model,name:account_invoice_import.model_account_invoice_import_partner_create
+msgid "Wizard to create a new partner or update an existing partner"
+msgstr "Майстер для створення нового партнера або оновлення наявного"

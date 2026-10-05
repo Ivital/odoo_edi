@@ -611,3 +611,65 @@ msgstr "Технічна інформація"
 #: model:ir.model.fields,help:base_import_pdf_by_template.field_base_import_pdf_template__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,help:base_import_pdf_by_template.field_base_import_pdf_template_line__log_distinct_value
+msgid ""
+"A note will be added with the previous value and the indicated value if\n"
+"        they are different."
+msgstr ""
+"Буде додано примітку з попереднім і вказаним значеннями, якщо\n"
+"        вони відрізняються."
+
+#. module: base_import_pdf_by_template
+#: model:ir.model,name:base_import_pdf_by_template.model_base_import_pdf_template
+msgid "Base Import Pdf Template"
+msgstr "Базовий шаблон імпорту PDF"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model,name:base_import_pdf_by_template.model_base_import_pdf_template_line
+msgid "Base Import Pdf Template Line"
+msgstr "Рядок базового шаблону імпорту PDF"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model,name:base_import_pdf_by_template.model_base_import_pdf_template_line_mapped
+msgid "Base Import Pdf Template Line Mapped"
+msgstr "Зіставлений рядок базового шаблону імпорту PDF"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,help:base_import_pdf_by_template.field_base_import_pdf_template__auto_detect_pattern
+msgid ""
+"It will be necessary to set a patter that only finds something\n"
+"        in the documents for this template."
+msgstr ""
+"Потрібно буде задати шаблон, який знаходить щось лише\n"
+"        у документах для цього шаблону."
+
+#. module: base_import_pdf_by_template
+#: model:ir.model.fields,help:base_import_pdf_by_template.field_base_import_pdf_template_line__date_time_format
+msgid ""
+"Specify the date and time format to use when displaying values. The format "
+"must use Python strftime notation."
+msgstr ""
+"Укажіть формат дати й часу для відображення значень. Формат має "
+"використовувати нотацію Python strftime."
+
+#. module: base_import_pdf_by_template
+#: model:ir.model,name:base_import_pdf_by_template.model_wizard_base_import_pdf_mixin
+msgid "Wizard Base Import Pdf Mixin"
+msgstr "Міксин майстра базового імпорту PDF"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model,name:base_import_pdf_by_template.model_wizard_base_import_pdf_preview
+msgid "Wizard Base Import Pdf Preview"
+msgstr "Майстер попереднього перегляду базового імпорту PDF"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model,name:base_import_pdf_by_template.model_wizard_base_import_pdf_upload
+msgid "Wizard Base Import Pdf Upload"
+msgstr "Майстер завантаження базового імпорту PDF"
+
+#. module: base_import_pdf_by_template
+#: model:ir.model,name:base_import_pdf_by_template.model_wizard_base_import_pdf_upload_line
+msgid "Wizard Base Import Pdf upload Line"
+msgstr "Рядок завантаження майстра базового імпорту PDF"

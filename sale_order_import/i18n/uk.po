@@ -228,3 +228,37 @@ msgstr ""
 msgid ""
 "format (UBL), you should install the module <em>sale_order_import_ubl</em>."
 msgstr "формат (UBL), слід установити модуль <em>sale_order_import_ubl</em>."
+
+#. module: sale_order_import
+#: model:ir.model.fields,help:sale_order_import.field_sale_order_import__skip_error_lines
+msgid ""
+"Ignore and push all error lines to the chatter when importing if enabled."
+msgstr ""
+"Якщо ввімкнено, ігнорувати всі помилкові рядки під час імпорту й надсилати "
+"їх у чаттер."
+
+#. module: sale_order_import
+#: model:ir.model.fields,help:sale_order_import.field_sale_order_import__import_type
+msgid "Select a type which you want to import"
+msgstr "Виберіть тип, який потрібно імпортувати"
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid "There are no embedded XML file in this PDF file."
+msgstr "У цьому PDF-файлі немає вбудованого XML-файлу."
+
+#. module: sale_order_import
+#. odoo-python
+#: code:addons/sale_order_import/wizard/sale_order_import.py:0
+msgid "This XML file is not XML-compliant"
+msgstr "Цей XML-файл не відповідає вимогам XML"
+
+#. module: sale_order_import
+#: model:ir.model.fields,help:sale_order_import.field_sale_order_import__order_file
+msgid ""
+"Upload a Request for Quotation or an Order file. Supported formats: XML and "
+"PDF (PDF with an embeded XML file)."
+msgstr ""
+"Завантажте запит комерційної пропозиції або файл замовлення. Підтримувані "
+"формати: XML і PDF (PDF із вбудованим XML-файлом)."

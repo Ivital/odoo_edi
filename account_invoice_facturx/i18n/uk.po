@@ -40,3 +40,8 @@ msgstr "Логотип Factur-X"
 #: model:ir.model.fields,field_description:account_invoice_facturx.field_res_company__xml_format_in_pdf_invoice
 msgid "XML Format embedded in PDF invoice"
 msgstr "XML-формат, вбудований у PDF-рахунок"
+
+#. module: account_invoice_facturx
+#: model:ir.model.fields,help:account_invoice_facturx.field_res_company__facturx_logo
+msgid "Logo to include in the visible part of Factur-X invoices"
+msgstr "Логотип для включення у видиму частину рахунків Factur-X"

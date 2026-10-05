@@ -304,3 +304,60 @@ msgstr "Контрагент або конфігурація завантаже�
 #: model:ir.actions.server,name:account_invoice_download.account_invoice_download_cron_ir_actions_server
 msgid "Vendor Bills Auto-Download"
 msgstr "Автозавантаження рахунків постачальника"
+
+#. module: account_invoice_download
+#: model:ir.model.fields,help:account_invoice_download.field_account_invoice_download_config__backward_days
+msgid ""
+"By default, Odoo will download all invoices that are after the last download"
+" date. But it may happen that invoices are available online for download "
+"several days after their generation. So, if you set this parameter to 5, "
+"Odoo will download all invoices that are after the last download date minus "
+"5 days."
+msgstr ""
+"Типово Odoo завантажує всі рахунки-фактури, датовані після дати останнього "
+"завантаження. Однак рахунки можуть ставати доступними онлайн для "
+"завантаження через кілька днів після створення. Тому, якщо встановити цей "
+"параметр у 5, Odoo завантажуватиме всі рахунки-фактури після дати останнього"
+" завантаження мінус 5 днів."
+
+#. module: account_invoice_download
+#: model:ir.model.fields,help:account_invoice_download.field_account_invoice_download_config__last_run
+msgid "Date of the last successfull download"
+msgstr "Дата останнього успішного завантаження"
+
+#. module: account_invoice_download
+#: model:ir.model.fields,help:account_invoice_download.field_account_invoice_download_config__password
+msgid ""
+"If you don't want to store the password in Odoo's database, leave this field"
+" empty and you will get a wizard to ask you the password on every download."
+msgstr ""
+"Якщо не хочете зберігати пароль у базі даних Odoo, залиште це поле порожнім "
+"— під час кожного завантаження майстер запитуватиме пароль."
+
+#. module: account_invoice_download
+#: model:ir.model,name:account_invoice_download.model_account_invoice_download_log
+msgid "Logs for the download of Supplier Invoices"
+msgstr "Журнали завантаження рахунків постачальників"
+
+#. module: account_invoice_download
+#: model:ir.model.constraint,message:account_invoice_download.constraint_account_invoice_download_config_backward_days_positive
+msgid "The backward days must be positive"
+msgstr "Кількість днів назад має бути додатною"
+
+#. module: account_invoice_download
+#: model:ir.model.constraint,message:account_invoice_download.constraint_account_invoice_download_config_interval_number_positive
+msgid "The frequency must be strictly positive"
+msgstr "Періодичність має бути строго додатною"
+
+#. module: account_invoice_download
+#: model:ir.model.fields,help:account_invoice_download.field_account_invoice_download_credentials__invoice_ids_str
+msgid ""
+"This field is a technical hack to be able to return the action with the "
+"created invoices"
+msgstr ""
+"Це поле є технічним обходом для повернення дії зі створеними рахунками"
+
+#. module: account_invoice_download
+#: model:ir.model,name:account_invoice_download.model_account_invoice_download_credentials
+msgid "Wizard to ask credentials to download invoice"
+msgstr "Майстер запиту облікових даних для завантаження рахунка"
